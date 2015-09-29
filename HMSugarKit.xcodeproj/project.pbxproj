@@ -10,6 +10,17 @@
 		D69008991BBA7AB2005FF1B2 /* HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D69008981BBA7AB2005FF1B2 /* HMSugarKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D69008A01BBA7AB2005FF1B2 /* HMSugarKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69008951BBA7AB2005FF1B2 /* HMSugarKit.framework */; settings = {ASSET_TAGS = (); }; };
 		D69008A51BBA7AB2005FF1B2 /* HMSugarKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D69008A41BBA7AB2005FF1B2 /* HMSugarKitTests.m */; };
+		D69008B21BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D69008B01BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.h */; settings = {ASSET_TAGS = (); }; };
+		D69008B31BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D69008B11BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
+		D69008B41BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D69008B11BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
+		D69008B71BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D69008B51BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.h */; settings = {ASSET_TAGS = (); }; };
+		D69008B81BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D69008B61BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
+		D69008B91BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D69008B61BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
+		D69008BC1BBAB0E3005FF1B2 /* NSNumber+HMSugarKitTset.m in Sources */ = {isa = PBXBuildFile; fileRef = D69008BB1BBAB0E3005FF1B2 /* NSNumber+HMSugarKitTset.m */; settings = {ASSET_TAGS = (); }; };
+		D6A4D6831BBAB84E007AC112 /* NSDictionary+HMSugarKitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A4D6821BBAB84E007AC112 /* NSDictionary+HMSugarKitTest.m */; settings = {ASSET_TAGS = (); }; };
+		D6A4D6861BBACEA3007AC112 /* NSArray+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A4D6841BBACEA3007AC112 /* NSArray+HMSugarKit.h */; settings = {ASSET_TAGS = (); }; };
+		D6A4D6871BBACEA3007AC112 /* NSArray+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A4D6851BBACEA3007AC112 /* NSArray+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
+		D6A4D6881BBACEA9007AC112 /* NSArray+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A4D6851BBACEA3007AC112 /* NSArray+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +40,14 @@
 		D690089F1BBA7AB2005FF1B2 /* HMSugarKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMSugarKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D69008A41BBA7AB2005FF1B2 /* HMSugarKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMSugarKitTests.m; sourceTree = "<group>"; };
 		D69008A61BBA7AB2005FF1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69008B01BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNumber+HMSugarKit.h"; path = "Class/Core/NSNumber+HMSugarKit.h"; sourceTree = "<group>"; };
+		D69008B11BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+HMSugarKit.m"; path = "Class/Core/NSNumber+HMSugarKit.m"; sourceTree = "<group>"; };
+		D69008B51BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+HMSugarKit.h"; path = "Class/Core/NSDictionary+HMSugarKit.h"; sourceTree = "<group>"; };
+		D69008B61BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+HMSugarKit.m"; path = "Class/Core/NSDictionary+HMSugarKit.m"; sourceTree = "<group>"; };
+		D69008BB1BBAB0E3005FF1B2 /* NSNumber+HMSugarKitTset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+HMSugarKitTset.m"; sourceTree = "<group>"; };
+		D6A4D6821BBAB84E007AC112 /* NSDictionary+HMSugarKitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HMSugarKitTest.m"; sourceTree = "<group>"; };
+		D6A4D6841BBACEA3007AC112 /* NSArray+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+HMSugarKit.h"; path = "Class/Core/NSArray+HMSugarKit.h"; sourceTree = "<group>"; };
+		D6A4D6851BBACEA3007AC112 /* NSArray+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+HMSugarKit.m"; path = "Class/Core/NSArray+HMSugarKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +90,7 @@
 		D69008971BBA7AB2005FF1B2 /* HMSugarKit */ = {
 			isa = PBXGroup;
 			children = (
+				D69008AF1BBA7AB8005FF1B2 /* Core */,
 				D69008981BBA7AB2005FF1B2 /* HMSugarKit.h */,
 				D690089A1BBA7AB2005FF1B2 /* Info.plist */,
 			);
@@ -80,10 +100,33 @@
 		D69008A31BBA7AB2005FF1B2 /* HMSugarKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				D69008BA1BBAB0B7005FF1B2 /* Class */,
 				D69008A41BBA7AB2005FF1B2 /* HMSugarKitTests.m */,
 				D69008A61BBA7AB2005FF1B2 /* Info.plist */,
 			);
 			path = HMSugarKitTests;
+			sourceTree = "<group>";
+		};
+		D69008AF1BBA7AB8005FF1B2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D69008B01BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.h */,
+				D69008B11BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.m */,
+				D69008B51BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.h */,
+				D69008B61BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.m */,
+				D6A4D6841BBACEA3007AC112 /* NSArray+HMSugarKit.h */,
+				D6A4D6851BBACEA3007AC112 /* NSArray+HMSugarKit.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		D69008BA1BBAB0B7005FF1B2 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D69008BB1BBAB0E3005FF1B2 /* NSNumber+HMSugarKitTset.m */,
+				D6A4D6821BBAB84E007AC112 /* NSDictionary+HMSugarKitTest.m */,
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,7 +136,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A4D6861BBACEA3007AC112 /* NSArray+HMSugarKit.h in Headers */,
 				D69008991BBA7AB2005FF1B2 /* HMSugarKit.h in Headers */,
+				D69008B21BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.h in Headers */,
+				D69008B71BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +239,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D69008B31BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.m in Sources */,
+				D69008B81BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.m in Sources */,
+				D6A4D6871BBACEA3007AC112 /* NSArray+HMSugarKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +249,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D69008BC1BBAB0E3005FF1B2 /* NSNumber+HMSugarKitTset.m in Sources */,
+				D69008B41BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.m in Sources */,
 				D69008A51BBA7AB2005FF1B2 /* HMSugarKitTests.m in Sources */,
+				D6A4D6831BBAB84E007AC112 /* NSDictionary+HMSugarKitTest.m in Sources */,
+				D69008B91BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.m in Sources */,
+				D6A4D6881BBACEA9007AC112 /* NSArray+HMSugarKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +428,7 @@
 				D69008AB1BBA7AB2005FF1B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D69008AC1BBA7AB2005FF1B2 /* Build configuration list for PBXNativeTarget "HMSugarKitTests" */ = {
 			isa = XCConfigurationList;
@@ -382,6 +437,7 @@
 				D69008AE1BBA7AB2005FF1B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
