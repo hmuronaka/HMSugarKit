@@ -32,6 +32,7 @@ extern const NSUInteger SK_DATE_YEAR;
 // Short string utilities
 - (NSString * _Nonnull) sk_stringWithDateStyle: (NSDateFormatterStyle) dateStyle timeStyle: (NSDateFormatterStyle) timeStyle;
 - (NSString * _Nonnull) sk_stringWithFormat: (NSString * _Nonnull) format;
+
 @property (nonatomic, readonly) NSString * _Nonnull sk_shortString;
 @property (nonatomic, readonly) NSString * _Nonnull sk_shortDateString;
 @property (nonatomic, readonly) NSString * _Nonnull sk_shortTimeString;
@@ -41,6 +42,8 @@ extern const NSUInteger SK_DATE_YEAR;
 @property (nonatomic, readonly) NSString * _Nonnull sk_longString;
 @property (nonatomic, readonly) NSString * _Nonnull sk_longDateString;
 @property (nonatomic, readonly) NSString * _Nonnull sk_longTimeString;
+   
+- (NSDate* _Nullable) sk_dateFromString:(NSString* _Nullable)dateString format:(NSString* _Nonnull)format;
 
 // Comparing dates
 -(BOOL)sk_isEqualToDateIgnoringTime: (NSDate * _Nullable) aDate;

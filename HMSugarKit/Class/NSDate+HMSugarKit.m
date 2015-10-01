@@ -153,6 +153,14 @@ static const unsigned componentFlags = (NSCalendarUnitYear | NSCalendarUnitMonth
     return [self sk_stringWithDateStyle:NSDateFormatterLongStyle  timeStyle:NSDateFormatterNoStyle];
 }
 
+- (NSDate* _Nullable) sk_dateFromString:(NSString* _Nullable)dateString format:(NSString* _Nonnull)format {
+    NSDateFormatter* formatter = [NSDateFormatter new];
+    formatter.dateFormat = format;
+    return [formatter dateFromString:dateString];
+}
+
+
+
 #pragma mark - Comparing Dates
 
 - (BOOL) sk_isEqualToDateIgnoringTime: (NSDate *) aDate
