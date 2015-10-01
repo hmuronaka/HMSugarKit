@@ -11,10 +11,12 @@
 @interface NSArray (HMSugarKit)
 
 typedef id _Nonnull (^SK_IDBlock)(id _Nonnull value);
+typedef BOOL (^SK_PredicateBlock)(id _Nonnull value);
 
 -(id _Nonnull)sk_shift;
 -(id _Nonnull)sk_pop;
 -(NSArray* _Nonnull)sk_merge:(NSArray* _Nullable)other;
 -(NSArray* _Nonnull)sk_map:(SK_IDBlock _Nullable)block;
+-(id _Nullable)sk_find:(SK_PredicateBlock _Nullable)block;
 
 @end
