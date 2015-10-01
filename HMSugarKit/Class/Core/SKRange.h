@@ -13,7 +13,7 @@
 @property(nonatomic, strong) id _Nonnull begin;
 @property(nonatomic, strong) id _Nonnull end;
 
--(instancetype)initWithBegin:(id _Nonnull)begin end:(id _Nonnull)end;
+-(instancetype _Nullable)initWithBegin:(id _Nonnull)begin end:(id _Nonnull)end;
 
 // begin <= value <= end
 -(BOOL)include:(id _Nonnull)value;

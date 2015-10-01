@@ -5,7 +5,13 @@
  BSD License, Use at your own risk
  */
 
-
+//
+//  NSDate+HMSugarKit.h
+//  HMSugarKit
+//
+//  Created by MuronakaHiroaki on 2015/09/30.
+//  Copyright © 2015年 Muronaka Hiroaki. All rights reserved.
+//
 
 #import <Foundation/Foundation.h>
 
