@@ -108,6 +108,13 @@ static const unsigned componentFlags = (NSCalendarUnitYear | NSCalendarUnitMonth
     return [formatter stringFromDate:self];
 }
 
++ (NSDate* _Nullable) sk_dateFromString:(NSString* _Nullable)dateString format:(NSString* _Nonnull)format {
+    NSDateFormatter* formatter = [NSDateFormatter new];
+    formatter.dateFormat = format;
+    return [formatter dateFromString:dateString];
+}
+
+
 - (NSString *) sk_shortString
 {
     return [self sk_stringWithDateStyle:NSDateFormatterShortStyle timeStyle:NSDateFormatterShortStyle];
@@ -151,12 +158,6 @@ static const unsigned componentFlags = (NSCalendarUnitYear | NSCalendarUnitMonth
 - (NSString *) sk_longDateString
 {
     return [self sk_stringWithDateStyle:NSDateFormatterLongStyle  timeStyle:NSDateFormatterNoStyle];
-}
-
-- (NSDate* _Nullable) sk_dateFromString:(NSString* _Nullable)dateString format:(NSString* _Nonnull)format {
-    NSDateFormatter* formatter = [NSDateFormatter new];
-    formatter.dateFormat = format;
-    return [formatter dateFromString:dateString];
 }
 
 
