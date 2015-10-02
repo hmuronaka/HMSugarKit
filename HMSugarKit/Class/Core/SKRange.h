@@ -16,7 +16,10 @@
 -(instancetype _Nullable)initWithBegin:(id _Nonnull)begin end:(id _Nonnull)end;
 
 // begin <= value <= end
--(BOOL)include:(id _Nonnull)value;
--(BOOL)exclude:(id _Nonnull)value;
+-(BOOL)sk_include:(id _Nonnull)value;
+-(BOOL)sk_exclude:(id _Nonnull)value;
+
++(BOOL)sk_includeWithBegin:(id _Nonnull)begin end:(id _Nonnull)end value:(id _Nonnull)value;
++(BOOL)sk_excludeWithBegin:(id _Nonnull)begin end:(id _Nonnull)end value:(id _Nonnull)value;
 
 @end
