@@ -7,10 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "HMSugarKitCommon.h"
 
 @interface NSArray (HMSugarKit)
 
-typedef id _Nonnull (^SK_IDBlock)(id _Nonnull value);
+typedef id _Nonnull (^SK_IDBlock)(id _Nonnull value, HMSugarKitBlockStatus* _Nonnull blockStatus);
 typedef BOOL (^SK_PredicateBlock)(id _Nonnull value);
 
 -(NSArray* _Nonnull)sk_merge:(NSArray* _Nullable)other;

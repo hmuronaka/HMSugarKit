@@ -24,7 +24,15 @@
     
     NSMutableArray* result = [[NSMutableArray alloc] initWithCapacity:self.count];
     [self enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        [result addObject:block(obj)];
+        HMSugarKitBlockStatus blockStatus = HMSugarKitBlockStatusNone;
+        id blockResult = block(obj, &blockStatus);
+        if( blockStatus == HMSugarKitBlockStatusContinue ) {
+            ;
+        } else if( blockStatus == HMSugarKitBlockStatusBreak ) {
+            *stop = YES;
+        } else {
+            [result addObject:blockResult];
+        }
     }];
     
     return [result copy];
@@ -61,11 +69,26 @@
     return result;
 }
 
--(id _Nullable)sk_reverseFindFromIndex:(NSInteger)index block:(SK_PredicateBlock _Nullable)block;
-  
--SArray* _Nonnull)sk_keepIf:(SK_PredicateBlock _Nullable)block {
-    
+-(id _Nullable)sk_reverseFindFromIndex:(NSInteger)index block:(SK_PredicateBlock _Nullable)block {
+    return nil;
 }
+  
+-(NSArray* _Nonnull)sk_keepIf:(SK_PredicateBlock _Nullable)block {
+    if( !block ) {
+        return self;
+    }
+    
+    NSMutableArray* result = [NSMutableArray new];
+    
+    [self enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        if( block(obj) ) {
+            [result addObject:result];
+        }
+    }];
+    
+    return [result copy];
+}
+
 -(NSArray* _Nonnull)sk_removeIf:(SK_PredicateBlock _Nullable)block;
 
 -(BOOL)sk_any:(SK_PredicateBlock _Nullable)block;

@@ -57,6 +57,7 @@
 		D6A4D6841BBACEA3007AC112 /* NSArray+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+HMSugarKit.h"; path = "Class/Core/NSArray+HMSugarKit.h"; sourceTree = "<group>"; };
 		D6A4D6851BBACEA3007AC112 /* NSArray+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+HMSugarKit.m"; path = "Class/Core/NSArray+HMSugarKit.m"; sourceTree = "<group>"; };
 		D6B9F6791BBC9F2F0070EC6A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D6D538F91BC22840002DB852 /* HMSugarKitCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMSugarKitCommon.h; sourceTree = "<group>"; };
 		D6E28D921BBE33420094F714 /* SKRangeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRangeTest.m; sourceTree = "<group>"; };
 		D6E7D0331BBBB3D100F80BFA /* NSDate+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+HMSugarKit.h"; path = "Class/NSDate+HMSugarKit.h"; sourceTree = "<group>"; };
 		D6E7D0341BBBB3D100F80BFA /* NSDate+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+HMSugarKit.m"; path = "Class/NSDate+HMSugarKit.m"; sourceTree = "<group>"; };
@@ -108,6 +109,7 @@
 				D69008981BBA7AB2005FF1B2 /* HMSugarKit.h */,
 				D690089A1BBA7AB2005FF1B2 /* Info.plist */,
 				D6B9F6791BBC9F2F0070EC6A /* LICENSE */,
+				D6D538F91BC22840002DB852 /* HMSugarKitCommon.h */,
 			);
 			path = HMSugarKit;
 			sourceTree = "<group>";
