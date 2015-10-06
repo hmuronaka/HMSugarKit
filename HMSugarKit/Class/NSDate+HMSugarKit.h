@@ -119,4 +119,7 @@ extern const NSUInteger SK_DATE_YEAR;
 @property (readonly) NSInteger sk_weekday;
 @property (readonly) NSInteger sk_nthWeekday; // e.g. 2nd Tuesday of the month == 2
 @property (readonly) NSInteger sk_year;
+
+
 @end
+

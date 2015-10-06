@@ -515,4 +515,6 @@ static const unsigned componentFlags = (NSCalendarUnitYear | NSCalendarUnitMonth
     NSDateComponents *components = [[NSDate sk_currentCalendar] components:componentFlags fromDate:self];
     return components.year;
 }
+
+
 @end
