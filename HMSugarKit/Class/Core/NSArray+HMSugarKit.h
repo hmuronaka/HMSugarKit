@@ -19,6 +19,7 @@ typedef BOOL (^SK_PredicateBlock)(id _Nonnull value);
 -(id _Nullable)sk_find:(SK_PredicateBlock _Nullable)block;
 -(id _Nullable)sk_findFromIndex:(NSInteger)index block:(SK_PredicateBlock _Nullable)block;
 -(NSInteger)sk_indexWithBlock:(SK_PredicateBlock _Nullable)block;
+-(NSInteger)sk_indexFromBegin:(NSInteger)begin block:(SK_PredicateBlock _Nullable)block;
 
 -(id _Nullable)sk_reverseFind:(SK_PredicateBlock _Nullable)block;
 -(id _Nullable)sk_reverseFindFromIndex:(NSInteger)index block:(SK_PredicateBlock _Nullable)block;
