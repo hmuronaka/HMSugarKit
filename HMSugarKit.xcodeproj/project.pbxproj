@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D68BFFF21BC2644200822BE5 /* UITableView+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D68BFFF01BC2644200822BE5 /* UITableView+HMSugarKit.h */; settings = {ASSET_TAGS = (); }; };
+		D68BFFF31BC2644200822BE5 /* UITableView+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D68BFFF11BC2644200822BE5 /* UITableView+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
+		D68BFFF61BC2644F00822BE5 /* NSSet+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D68BFFF41BC2644F00822BE5 /* NSSet+HMSugarKit.h */; settings = {ASSET_TAGS = (); }; };
+		D68BFFF71BC2644F00822BE5 /* NSSet+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D68BFFF51BC2644F00822BE5 /* NSSet+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
 		D69008991BBA7AB2005FF1B2 /* HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D69008981BBA7AB2005FF1B2 /* HMSugarKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D69008A01BBA7AB2005FF1B2 /* HMSugarKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69008951BBA7AB2005FF1B2 /* HMSugarKit.framework */; settings = {ASSET_TAGS = (); }; };
 		D69008A51BBA7AB2005FF1B2 /* HMSugarKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D69008A41BBA7AB2005FF1B2 /* HMSugarKitTests.m */; };
@@ -42,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D68BFFF01BC2644200822BE5 /* UITableView+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+HMSugarKit.h"; sourceTree = "<group>"; };
+		D68BFFF11BC2644200822BE5 /* UITableView+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HMSugarKit.m"; sourceTree = "<group>"; };
+		D68BFFF41BC2644F00822BE5 /* NSSet+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+HMSugarKit.h"; sourceTree = "<group>"; };
+		D68BFFF51BC2644F00822BE5 /* NSSet+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+HMSugarKit.m"; sourceTree = "<group>"; };
 		D69008951BBA7AB2005FF1B2 /* HMSugarKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMSugarKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D69008981BBA7AB2005FF1B2 /* HMSugarKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMSugarKit.h; sourceTree = "<group>"; };
 		D690089A1BBA7AB2005FF1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -84,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D68BFFEF1BC2642B00822BE5 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				D68BFFF01BC2644200822BE5 /* UITableView+HMSugarKit.h */,
+				D68BFFF11BC2644200822BE5 /* UITableView+HMSugarKit.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
 		D690088B1BBA7AB2005FF1B2 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +122,7 @@
 		D69008971BBA7AB2005FF1B2 /* HMSugarKit */ = {
 			isa = PBXGroup;
 			children = (
+				D68BFFEF1BC2642B00822BE5 /* UIKit */,
 				D69008AF1BBA7AB8005FF1B2 /* Core */,
 				D69008981BBA7AB2005FF1B2 /* HMSugarKit.h */,
 				D690089A1BBA7AB2005FF1B2 /* Info.plist */,
@@ -127,6 +145,8 @@
 		D69008AF1BBA7AB8005FF1B2 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				D68BFFF41BC2644F00822BE5 /* NSSet+HMSugarKit.h */,
+				D68BFFF51BC2644F00822BE5 /* NSSet+HMSugarKit.m */,
 				D69008B01BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.h */,
 				D69008B11BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.m */,
 				D69008B51BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.h */,
@@ -164,6 +184,8 @@
 				D69008991BBA7AB2005FF1B2 /* HMSugarKit.h in Headers */,
 				D69008B21BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.h in Headers */,
 				D69008B71BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.h in Headers */,
+				D68BFFF21BC2644200822BE5 /* UITableView+HMSugarKit.h in Headers */,
+				D68BFFF61BC2644F00822BE5 /* NSSet+HMSugarKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,9 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D68BFFF31BC2644200822BE5 /* UITableView+HMSugarKit.m in Sources */,
 				D69008B31BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.m in Sources */,
 				D69008B81BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.m in Sources */,
 				D6E7D03E1BBBB63B00F80BFA /* SKRange.m in Sources */,
+				D68BFFF71BC2644F00822BE5 /* NSSet+HMSugarKit.m in Sources */,
 				D6A4D6871BBACEA3007AC112 /* NSArray+HMSugarKit.m in Sources */,
 				D6E7D0361BBBB3D100F80BFA /* NSDate+HMSugarKit.m in Sources */,
 			);
