@@ -26,3 +26,11 @@ CGSize sk_CGSizeMultiplyValue(CGSize size, CGFloat rate) {
 CGSize sk_CGSizeMultiplyValues(CGSize size, CGFloat width, CGFloat height) {
     return CGSizeMake(size.width * width, size.height * height);
 }
+
+CGSize sk_CGSizeAdd(CGSize size1, CGSize size2) {
+    return sk_CGSizeAddValues(size1, size2.width, size2.height);
+}
+
+CGSize sk_CGSizeAddValues(CGSize size, CGFloat width, CGFloat height) {
+    return CGSizeMake(size.width + width, size.height + height);
+}
