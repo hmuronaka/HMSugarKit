@@ -28,6 +28,7 @@
 		D6A4D6871BBACEA3007AC112 /* NSArray+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A4D6851BBACEA3007AC112 /* NSArray+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
 		D6A4D6881BBACEA9007AC112 /* NSArray+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A4D6851BBACEA3007AC112 /* NSArray+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
 		D6B9F67A1BBC9F2F0070EC6A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D6B9F6791BBC9F2F0070EC6A /* LICENSE */; settings = {ASSET_TAGS = (); }; };
+		D6C960A01BC4C17F0086A51F /* UIKitFunction+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C9609F1BC4C17F0086A51F /* UIKitFunction+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
 		D6E28D931BBE33420094F714 /* SKRangeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E28D921BBE33420094F714 /* SKRangeTest.m */; settings = {ASSET_TAGS = (); }; };
 		D6E7D0351BBBB3D100F80BFA /* NSDate+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E7D0331BBBB3D100F80BFA /* NSDate+HMSugarKit.h */; settings = {ASSET_TAGS = (); }; };
 		D6E7D0361BBBB3D100F80BFA /* NSDate+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E7D0341BBBB3D100F80BFA /* NSDate+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
@@ -69,6 +70,8 @@
 		D6A4D6841BBACEA3007AC112 /* NSArray+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+HMSugarKit.h"; path = "Class/Core/NSArray+HMSugarKit.h"; sourceTree = "<group>"; };
 		D6A4D6851BBACEA3007AC112 /* NSArray+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+HMSugarKit.m"; path = "Class/Core/NSArray+HMSugarKit.m"; sourceTree = "<group>"; };
 		D6B9F6791BBC9F2F0070EC6A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D6C9609E1BC4C1300086A51F /* UIKitFunction+HMSugarKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIKitFunction+HMSugarKit.h"; sourceTree = "<group>"; };
+		D6C9609F1BC4C17F0086A51F /* UIKitFunction+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIKitFunction+HMSugarKit.m"; sourceTree = "<group>"; };
 		D6D538F91BC22840002DB852 /* HMSugarKitCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMSugarKitCommon.h; sourceTree = "<group>"; };
 		D6E28D921BBE33420094F714 /* SKRangeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRangeTest.m; sourceTree = "<group>"; };
 		D6E7D0331BBBB3D100F80BFA /* NSDate+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+HMSugarKit.h"; path = "Class/NSDate+HMSugarKit.h"; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 			children = (
 				D68BFFF01BC2644200822BE5 /* UITableView+HMSugarKit.h */,
 				D68BFFF11BC2644200822BE5 /* UITableView+HMSugarKit.m */,
+				D6C9609E1BC4C1300086A51F /* UIKitFunction+HMSugarKit.h */,
+				D6C9609F1BC4C17F0086A51F /* UIKitFunction+HMSugarKit.m */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -293,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6C960A01BC4C17F0086A51F /* UIKitFunction+HMSugarKit.m in Sources */,
 				D68BFFF31BC2644200822BE5 /* UITableView+HMSugarKit.m in Sources */,
 				D69008B31BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.m in Sources */,
 				D646F1291BC37C4D00F2FF2F /* NSObject+HMSugarKit.m in Sources */,
