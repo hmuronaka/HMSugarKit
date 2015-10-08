@@ -24,6 +24,11 @@
 		D6A4D6871BBACEA3007AC112 /* NSArray+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A4D6851BBACEA3007AC112 /* NSArray+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
 		D6A4D6881BBACEA9007AC112 /* NSArray+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A4D6851BBACEA3007AC112 /* NSArray+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
 		D6B9F67A1BBC9F2F0070EC6A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D6B9F6791BBC9F2F0070EC6A /* LICENSE */; settings = {ASSET_TAGS = (); }; };
+		D6C592C11BC6220500EFEC9E /* UISlider+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D6C592BF1BC6220500EFEC9E /* UISlider+HMSugarKit.h */; settings = {ASSET_TAGS = (); }; };
+		D6C592C21BC6220500EFEC9E /* UISlider+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C592C01BC6220500EFEC9E /* UISlider+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
+		D6C592C61BC622A300EFEC9E /* SKStep.h in Headers */ = {isa = PBXBuildFile; fileRef = D6C592C41BC622A300EFEC9E /* SKStep.h */; settings = {ASSET_TAGS = (); }; };
+		D6C592C71BC622A300EFEC9E /* SKStep.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C592C51BC622A300EFEC9E /* SKStep.m */; settings = {ASSET_TAGS = (); }; };
+		D6C592C91BC6283500EFEC9E /* SKStepTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C592C81BC6283500EFEC9E /* SKStepTest.m */; settings = {ASSET_TAGS = (); }; };
 		D6D61EAF1BC53B1C00B150E6 /* NSSet+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D61EAD1BC53B1C00B150E6 /* NSSet+HMSugarKit.h */; settings = {ASSET_TAGS = (); }; };
 		D6D61EB01BC53B1C00B150E6 /* NSSet+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D61EAE1BC53B1C00B150E6 /* NSSet+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
 		D6D61EB31BC53B2700B150E6 /* NSDate+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D61EB11BC53B2700B150E6 /* NSDate+HMSugarKit.h */; settings = {ASSET_TAGS = (); }; };
@@ -66,6 +71,11 @@
 		D6A4D6841BBACEA3007AC112 /* NSArray+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+HMSugarKit.h"; path = "Class/Core/NSArray+HMSugarKit.h"; sourceTree = "<group>"; };
 		D6A4D6851BBACEA3007AC112 /* NSArray+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+HMSugarKit.m"; path = "Class/Core/NSArray+HMSugarKit.m"; sourceTree = "<group>"; };
 		D6B9F6791BBC9F2F0070EC6A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D6C592BF1BC6220500EFEC9E /* UISlider+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UISlider+HMSugarKit.h"; path = "Class/UIKit/UISlider+HMSugarKit.h"; sourceTree = "<group>"; };
+		D6C592C01BC6220500EFEC9E /* UISlider+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UISlider+HMSugarKit.m"; path = "Class/UIKit/UISlider+HMSugarKit.m"; sourceTree = "<group>"; };
+		D6C592C41BC622A300EFEC9E /* SKStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKStep.h; path = Class/Util/SKStep.h; sourceTree = "<group>"; };
+		D6C592C51BC622A300EFEC9E /* SKStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKStep.m; path = Class/Util/SKStep.m; sourceTree = "<group>"; };
+		D6C592C81BC6283500EFEC9E /* SKStepTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKStepTest.m; sourceTree = "<group>"; };
 		D6D538F91BC22840002DB852 /* HMSugarKitCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMSugarKitCommon.h; sourceTree = "<group>"; };
 		D6D61EAD1BC53B1C00B150E6 /* NSSet+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSSet+HMSugarKit.h"; path = "Class/Core/NSSet+HMSugarKit.h"; sourceTree = "<group>"; };
 		D6D61EAE1BC53B1C00B150E6 /* NSSet+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSSet+HMSugarKit.m"; path = "Class/Core/NSSet+HMSugarKit.m"; sourceTree = "<group>"; };
@@ -106,6 +116,8 @@
 				D6D61EB61BC53B5600B150E6 /* UIKitFunction+HMSugarKit.m */,
 				D6D61EB71BC53B5600B150E6 /* UITableView+HMSugarKit.h */,
 				D6D61EB81BC53B5600B150E6 /* UITableView+HMSugarKit.m */,
+				D6C592BF1BC6220500EFEC9E /* UISlider+HMSugarKit.h */,
+				D6C592C01BC6220500EFEC9E /* UISlider+HMSugarKit.m */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -131,6 +143,7 @@
 		D69008971BBA7AB2005FF1B2 /* HMSugarKit */ = {
 			isa = PBXGroup;
 			children = (
+				D6C592C31BC6228100EFEC9E /* Util */,
 				D68BFFEF1BC2642B00822BE5 /* UIKit */,
 				D69008AF1BBA7AB8005FF1B2 /* Core */,
 				D69008981BBA7AB2005FF1B2 /* HMSugarKit.h */,
@@ -178,8 +191,18 @@
 				D69008BB1BBAB0E3005FF1B2 /* NSNumber+HMSugarKitTset.m */,
 				D6A4D6821BBAB84E007AC112 /* NSDictionary+HMSugarKitTest.m */,
 				D6E28D921BBE33420094F714 /* SKRangeTest.m */,
+				D6C592C81BC6283500EFEC9E /* SKStepTest.m */,
 			);
 			name = Class;
+			sourceTree = "<group>";
+		};
+		D6C592C31BC6228100EFEC9E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D6C592C41BC622A300EFEC9E /* SKStep.h */,
+				D6C592C51BC622A300EFEC9E /* SKStep.m */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +215,7 @@
 				D6E7D03D1BBBB63B00F80BFA /* SKRange.h in Headers */,
 				D6A4D6861BBACEA3007AC112 /* NSArray+HMSugarKit.h in Headers */,
 				D6D61EB31BC53B2700B150E6 /* NSDate+HMSugarKit.h in Headers */,
+				D6C592C11BC6220500EFEC9E /* UISlider+HMSugarKit.h in Headers */,
 				D69008991BBA7AB2005FF1B2 /* HMSugarKit.h in Headers */,
 				D69008B21BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.h in Headers */,
 				D646F1281BC37C4D00F2FF2F /* NSObject+HMSugarKit.h in Headers */,
@@ -199,6 +223,7 @@
 				D6D61EB91BC53B5600B150E6 /* UIKitFunction+HMSugarKit.h in Headers */,
 				D6D61EAF1BC53B1C00B150E6 /* NSSet+HMSugarKit.h in Headers */,
 				D6D61EBB1BC53B5600B150E6 /* UITableView+HMSugarKit.h in Headers */,
+				D6C592C61BC622A300EFEC9E /* SKStep.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,11 +325,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D69008B31BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.m in Sources */,
+				D6C592C21BC6220500EFEC9E /* UISlider+HMSugarKit.m in Sources */,
 				D646F1291BC37C4D00F2FF2F /* NSObject+HMSugarKit.m in Sources */,
 				D6D61EB01BC53B1C00B150E6 /* NSSet+HMSugarKit.m in Sources */,
 				D6D61EBC1BC53B5600B150E6 /* UITableView+HMSugarKit.m in Sources */,
 				D6D61EBA1BC53B5600B150E6 /* UIKitFunction+HMSugarKit.m in Sources */,
 				D69008B81BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.m in Sources */,
+				D6C592C71BC622A300EFEC9E /* SKStep.m in Sources */,
 				D6E7D03E1BBBB63B00F80BFA /* SKRange.m in Sources */,
 				D6A4D6871BBACEA3007AC112 /* NSArray+HMSugarKit.m in Sources */,
 				D6D61EB41BC53B2700B150E6 /* NSDate+HMSugarKit.m in Sources */,
@@ -315,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6C592C91BC6283500EFEC9E /* SKStepTest.m in Sources */,
 				D69008BC1BBAB0E3005FF1B2 /* NSNumber+HMSugarKitTset.m in Sources */,
 				D69008B41BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.m in Sources */,
 				D69008A51BBA7AB2005FF1B2 /* HMSugarKitTests.m in Sources */,
