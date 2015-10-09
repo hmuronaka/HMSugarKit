@@ -8,8 +8,16 @@
 
 #import "UIKitFunction+HMSugarKit.h"
 
+static NSString* SK_CGSizeDefaultStringFormat = @"(W=%f, H=%f)";
+static NSString* SK_CGPointDefaultStringFormat = @"(X=%f, Y=%f)";
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark
 #pragma CGize
+
+void sk_CGSizeSetStringDefaultFormat(NSString* format) {
+    SK_CGSizeDefaultStringFormat = format;
+}
 
 CGSize sk_CGSizeSwap(CGSize size) {
     return CGSizeMake(size.height, size.width);
@@ -33,4 +41,44 @@ CGSize sk_CGSizeAdd(CGSize size1, CGSize size2) {
 
 CGSize sk_CGSizeAddValues(CGSize size, CGFloat width, CGFloat height) {
     return CGSizeMake(size.width + width, size.height + height);
+}
+
+NSString* sk_CGSizeString(CGSize size) {
+    return [NSString stringWithFormat:SK_CGSizeDefaultStringFormat, size.width, size.height];
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark -
+#pragma mark CGPoint
+
+void sk_CGPointSetStringDefaultFormat(NSString* format) {
+    SK_CGPointDefaultStringFormat = format;
+}
+
+CGPoint sk_CGPointSwap(CGPoint point) {
+    return CGPointMake(point.y, point.x);
+}
+
+CGPoint sk_CGPointMultiply(CGPoint point1, CGPoint point2) {
+    return sk_CGPointMultiplyValues(point1, point2.x, point2.y);
+}
+
+CGPoint sk_CGPointMultiplyValue(CGPoint point, CGFloat rate) {
+    return sk_CGPointMultiplyValues(point, rate, rate);
+}
+
+CGPoint sk_CGPointMultiplyValues(CGPoint point, CGFloat x, CGFloat y) {
+    return CGPointMake(point.x * x, point.y * y);
+}
+
+CGPoint sk_CGPointAdd(CGPoint point1, CGPoint point2) {
+    return sk_CGPointAddValues(point1, point2.x, point2.y);
+}
+
+CGPoint sk_CGPointAddValues(CGPoint point, CGFloat x, CGFloat y) {
+    return CGPointMake(point.x + x, point.y + y);
+}
+
+NSString* sk_CGPointString(CGPoint point) {
+    return [NSString stringWithFormat:SK_CGPointDefaultStringFormat, point.x, point.y];
 }
