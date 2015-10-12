@@ -37,4 +37,8 @@
     return cancelBlock;
 }
 
+-(NSString*)sk_className {
+    return NSStringFromClass([self class]);
+}
+
 @end

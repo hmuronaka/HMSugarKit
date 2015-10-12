@@ -14,5 +14,6 @@ typedef void (^SKObjectCancelBlock)(BOOL cancel);
 @interface NSObject (HMSugarKit)
 
 -(SKObjectCancelBlock)sk_performBlockOnMainThread:(SKObjectBlock)block;
+-(NSString*)sk_className;
 
 @end
