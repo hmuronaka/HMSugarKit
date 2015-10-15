@@ -51,3 +51,6 @@ xcuserdata
 # Carthage/Checkouts
 
 Carthage/Build
+
+# Git
+*.orig
