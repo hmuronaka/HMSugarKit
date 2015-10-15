@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D61920D81BCDE4A000EF9896 /* UITextField+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D61920D61BCDE4A000EF9896 /* UITextField+HMSugarKit.h */; settings = {ASSET_TAGS = (); }; };
+		D61920D91BCDE4A000EF9896 /* UITextField+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D61920D71BCDE4A000EF9896 /* UITextField+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
 		D624EA751BC7504D00B9B193 /* UIScrollView+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D624EA731BC7504D00B9B193 /* UIScrollView+HMSugarKit.h */; settings = {ASSET_TAGS = (); }; };
 		D624EA761BC7504D00B9B193 /* UIScrollView+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D624EA741BC7504D00B9B193 /* UIScrollView+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
 		D629EA341BCA18B3009295F5 /* SKQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D629EA321BCA18B3009295F5 /* SKQueue.h */; settings = {ASSET_TAGS = (); }; };
@@ -35,6 +37,15 @@
 		D6C592C61BC622A300EFEC9E /* SKStep.h in Headers */ = {isa = PBXBuildFile; fileRef = D6C592C41BC622A300EFEC9E /* SKStep.h */; settings = {ASSET_TAGS = (); }; };
 		D6C592C71BC622A300EFEC9E /* SKStep.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C592C51BC622A300EFEC9E /* SKStep.m */; settings = {ASSET_TAGS = (); }; };
 		D6C592C91BC6283500EFEC9E /* SKStepTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C592C81BC6283500EFEC9E /* SKStepTest.m */; settings = {ASSET_TAGS = (); }; };
+		D6CC11BE1BCF9B13004769F4 /* SKLog.h in Headers */ = {isa = PBXBuildFile; fileRef = D6CC11BC1BCF9B13004769F4 /* SKLog.h */; settings = {ASSET_TAGS = (); }; };
+		D6CC11C21BCF9BE0004769F4 /* HMSugarKitFunc.h in Headers */ = {isa = PBXBuildFile; fileRef = D6CC11C01BCF9BE0004769F4 /* HMSugarKitFunc.h */; settings = {ASSET_TAGS = (); }; };
+		D6CC11C31BCF9BE0004769F4 /* HMSugarKitFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CC11C11BCF9BE0004769F4 /* HMSugarKitFunc.m */; settings = {ASSET_TAGS = (); }; };
+		D6CC11C71BCF9C9D004769F4 /* CLLocation+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D6CC11C51BCF9C9D004769F4 /* CLLocation+HMSugarKit.h */; settings = {ASSET_TAGS = (); }; };
+		D6CC11C81BCF9C9D004769F4 /* CLLocation+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CC11C61BCF9C9D004769F4 /* CLLocation+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
+		D6CC11CB1BCF9CFD004769F4 /* GetDistanceHubeny.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CC11C91BCF9CFD004769F4 /* GetDistanceHubeny.m */; settings = {ASSET_TAGS = (); }; };
+		D6CC11CC1BCF9CFD004769F4 /* GetDistanceHubeny.h in Headers */ = {isa = PBXBuildFile; fileRef = D6CC11CA1BCF9CFD004769F4 /* GetDistanceHubeny.h */; settings = {ASSET_TAGS = (); }; };
+		D6CC11D01BCF9D37004769F4 /* MKMapView+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D6CC11CE1BCF9D37004769F4 /* MKMapView+HMSugarKit.h */; settings = {ASSET_TAGS = (); }; };
+		D6CC11D11BCF9D37004769F4 /* MKMapView+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CC11CF1BCF9D37004769F4 /* MKMapView+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
 		D6D61EAF1BC53B1C00B150E6 /* NSSet+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D61EAD1BC53B1C00B150E6 /* NSSet+HMSugarKit.h */; settings = {ASSET_TAGS = (); }; };
 		D6D61EB01BC53B1C00B150E6 /* NSSet+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D61EAE1BC53B1C00B150E6 /* NSSet+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
 		D6D61EB31BC53B2700B150E6 /* NSDate+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D61EB11BC53B2700B150E6 /* NSDate+HMSugarKit.h */; settings = {ASSET_TAGS = (); }; };
@@ -62,6 +73,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D61920D61BCDE4A000EF9896 /* UITextField+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+HMSugarKit.h"; path = "Class/UIKit/UITextField+HMSugarKit.h"; sourceTree = "<group>"; };
+		D61920D71BCDE4A000EF9896 /* UITextField+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+HMSugarKit.m"; path = "Class/UIKit/UITextField+HMSugarKit.m"; sourceTree = "<group>"; };
 		D624EA731BC7504D00B9B193 /* UIScrollView+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+HMSugarKit.h"; path = "Class/UIKit/UIScrollView+HMSugarKit.h"; sourceTree = "<group>"; };
 		D624EA741BC7504D00B9B193 /* UIScrollView+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+HMSugarKit.m"; path = "Class/UIKit/UIScrollView+HMSugarKit.m"; sourceTree = "<group>"; };
 		D629EA321BCA18B3009295F5 /* SKQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKQueue.h; path = Class/Util/SKQueue.h; sourceTree = "<group>"; };
@@ -90,6 +103,15 @@
 		D6C592C41BC622A300EFEC9E /* SKStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKStep.h; path = Class/Util/SKStep.h; sourceTree = "<group>"; };
 		D6C592C51BC622A300EFEC9E /* SKStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKStep.m; path = Class/Util/SKStep.m; sourceTree = "<group>"; };
 		D6C592C81BC6283500EFEC9E /* SKStepTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKStepTest.m; sourceTree = "<group>"; };
+		D6CC11BC1BCF9B13004769F4 /* SKLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKLog.h; sourceTree = "<group>"; };
+		D6CC11C01BCF9BE0004769F4 /* HMSugarKitFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HMSugarKitFunc.h; path = Class/Util/HMSugarKitFunc.h; sourceTree = "<group>"; };
+		D6CC11C11BCF9BE0004769F4 /* HMSugarKitFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMSugarKitFunc.m; path = Class/Util/HMSugarKitFunc.m; sourceTree = "<group>"; };
+		D6CC11C51BCF9C9D004769F4 /* CLLocation+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+HMSugarKit.h"; sourceTree = "<group>"; };
+		D6CC11C61BCF9C9D004769F4 /* CLLocation+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+HMSugarKit.m"; sourceTree = "<group>"; };
+		D6CC11C91BCF9CFD004769F4 /* GetDistanceHubeny.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetDistanceHubeny.m; sourceTree = "<group>"; };
+		D6CC11CA1BCF9CFD004769F4 /* GetDistanceHubeny.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetDistanceHubeny.h; sourceTree = "<group>"; };
+		D6CC11CE1BCF9D37004769F4 /* MKMapView+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+HMSugarKit.h"; sourceTree = "<group>"; };
+		D6CC11CF1BCF9D37004769F4 /* MKMapView+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+HMSugarKit.m"; sourceTree = "<group>"; };
 		D6D538F91BC22840002DB852 /* HMSugarKitCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMSugarKitCommon.h; sourceTree = "<group>"; };
 		D6D61EAD1BC53B1C00B150E6 /* NSSet+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSSet+HMSugarKit.h"; path = "Class/Core/NSSet+HMSugarKit.h"; sourceTree = "<group>"; };
 		D6D61EAE1BC53B1C00B150E6 /* NSSet+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSSet+HMSugarKit.m"; path = "Class/Core/NSSet+HMSugarKit.m"; sourceTree = "<group>"; };
@@ -140,6 +162,8 @@
 				D624EA741BC7504D00B9B193 /* UIScrollView+HMSugarKit.m */,
 				D6542CF11BCB6B570041397D /* UIView+HMSugarKit.h */,
 				D6542CF21BCB6B570041397D /* UIView+HMSugarKit.m */,
+				D61920D61BCDE4A000EF9896 /* UITextField+HMSugarKit.h */,
+				D61920D71BCDE4A000EF9896 /* UITextField+HMSugarKit.m */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -165,6 +189,9 @@
 		D69008971BBA7AB2005FF1B2 /* HMSugarKit */ = {
 			isa = PBXGroup;
 			children = (
+				D6CC11CD1BCF9D2B004769F4 /* MapKit */,
+				D6CC11C41BCF9C93004769F4 /* CoreLocation */,
+				D6CC11BB1BCF9AFB004769F4 /* Log */,
 				D6C592C31BC6228100EFEC9E /* Util */,
 				D68BFFEF1BC2642B00822BE5 /* UIKit */,
 				D69008AF1BBA7AB8005FF1B2 /* Core */,
@@ -225,8 +252,38 @@
 				D6C592C51BC622A300EFEC9E /* SKStep.m */,
 				D629EA321BCA18B3009295F5 /* SKQueue.h */,
 				D629EA331BCA18B3009295F5 /* SKQueue.m */,
+				D6CC11C01BCF9BE0004769F4 /* HMSugarKitFunc.h */,
+				D6CC11C11BCF9BE0004769F4 /* HMSugarKitFunc.m */,
 			);
 			name = Util;
+			sourceTree = "<group>";
+		};
+		D6CC11BB1BCF9AFB004769F4 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				D6CC11BC1BCF9B13004769F4 /* SKLog.h */,
+			);
+			name = Log;
+			sourceTree = "<group>";
+		};
+		D6CC11C41BCF9C93004769F4 /* CoreLocation */ = {
+			isa = PBXGroup;
+			children = (
+				D6CC11C51BCF9C9D004769F4 /* CLLocation+HMSugarKit.h */,
+				D6CC11C61BCF9C9D004769F4 /* CLLocation+HMSugarKit.m */,
+				D6CC11C91BCF9CFD004769F4 /* GetDistanceHubeny.m */,
+				D6CC11CA1BCF9CFD004769F4 /* GetDistanceHubeny.h */,
+			);
+			name = CoreLocation;
+			sourceTree = "<group>";
+		};
+		D6CC11CD1BCF9D2B004769F4 /* MapKit */ = {
+			isa = PBXGroup;
+			children = (
+				D6CC11CE1BCF9D37004769F4 /* MKMapView+HMSugarKit.h */,
+				D6CC11CF1BCF9D37004769F4 /* MKMapView+HMSugarKit.m */,
+			);
+			name = MapKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,17 +298,23 @@
 				D6D61EB31BC53B2700B150E6 /* NSDate+HMSugarKit.h in Headers */,
 				D6542CF31BCB6B570041397D /* UIView+HMSugarKit.h in Headers */,
 				D6C592C11BC6220500EFEC9E /* UISlider+HMSugarKit.h in Headers */,
+				D6CC11D01BCF9D37004769F4 /* MKMapView+HMSugarKit.h in Headers */,
+				D6CC11C21BCF9BE0004769F4 /* HMSugarKitFunc.h in Headers */,
 				D629EA341BCA18B3009295F5 /* SKQueue.h in Headers */,
 				D69008991BBA7AB2005FF1B2 /* HMSugarKit.h in Headers */,
 				D69008B21BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.h in Headers */,
 				D646F1281BC37C4D00F2FF2F /* NSObject+HMSugarKit.h in Headers */,
+				D61920D81BCDE4A000EF9896 /* UITextField+HMSugarKit.h in Headers */,
 				D624EA751BC7504D00B9B193 /* UIScrollView+HMSugarKit.h in Headers */,
 				D6DEEE1D1BCBF6D100A5A529 /* UIViewController+HMSugarKit.h in Headers */,
+				D6CC11BE1BCF9B13004769F4 /* SKLog.h in Headers */,
 				D69008B71BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.h in Headers */,
 				D6D61EB91BC53B5600B150E6 /* UIKitFunction+HMSugarKit.h in Headers */,
 				D6D61EAF1BC53B1C00B150E6 /* NSSet+HMSugarKit.h in Headers */,
 				D6D61EBB1BC53B5600B150E6 /* UITableView+HMSugarKit.h in Headers */,
+				D6CC11CC1BCF9CFD004769F4 /* GetDistanceHubeny.h in Headers */,
 				D6C592C61BC622A300EFEC9E /* SKStep.h in Headers */,
+				D6CC11C71BCF9C9D004769F4 /* CLLocation+HMSugarKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +419,9 @@
 				D6C592C21BC6220500EFEC9E /* UISlider+HMSugarKit.m in Sources */,
 				D646F1291BC37C4D00F2FF2F /* NSObject+HMSugarKit.m in Sources */,
 				D6D61EB01BC53B1C00B150E6 /* NSSet+HMSugarKit.m in Sources */,
+				D6CC11CB1BCF9CFD004769F4 /* GetDistanceHubeny.m in Sources */,
+				D6CC11C81BCF9C9D004769F4 /* CLLocation+HMSugarKit.m in Sources */,
+				D61920D91BCDE4A000EF9896 /* UITextField+HMSugarKit.m in Sources */,
 				D6D61EBC1BC53B5600B150E6 /* UITableView+HMSugarKit.m in Sources */,
 				D6D61EBA1BC53B5600B150E6 /* UIKitFunction+HMSugarKit.m in Sources */,
 				D6DEEE1E1BCBF6D100A5A529 /* UIViewController+HMSugarKit.m in Sources */,
@@ -365,7 +431,9 @@
 				D6E7D03E1BBBB63B00F80BFA /* SKRange.m in Sources */,
 				D629EA351BCA18B3009295F5 /* SKQueue.m in Sources */,
 				D6542CF41BCB6B570041397D /* UIView+HMSugarKit.m in Sources */,
+				D6CC11D11BCF9D37004769F4 /* MKMapView+HMSugarKit.m in Sources */,
 				D6A4D6871BBACEA3007AC112 /* NSArray+HMSugarKit.m in Sources */,
+				D6CC11C31BCF9BE0004769F4 /* HMSugarKitFunc.m in Sources */,
 				D6D61EB41BC53B2700B150E6 /* NSDate+HMSugarKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

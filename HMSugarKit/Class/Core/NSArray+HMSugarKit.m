@@ -89,25 +89,25 @@
     return [result copy];
 }
 
--(NSArray* _Nonnull)sk_removeIf:(SK_PredicateBlock _Nullable)block;
+//-(NSArray* _Nonnull)sk_removeIf:(SK_PredicateBlock _Nullable)block;
 
--(BOOL)sk_any:(SK_PredicateBlock _Nullable)block;
--(BOOL)sk_all:(SK_PredicateBlock _Nullable)block;
--(BOOL)sk_none:(SK_PredicateBlock _Nullable)block;
-
-
--(id _Nullable)sk_find:(SK_PredicateBlock _Nullable)block {
-    if( !block ) {
-        return nil;
-    }
-    __block id result = nil;
-    [self enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        if( block( obj ) ) {
-            result = obj;
-            *stop = YES;
-        }
-    }];
-    return result;
-}
+//-(BOOL)sk_any:(SK_PredicateBlock _Nullable)block;
+//-(BOOL)sk_all:(SK_PredicateBlock _Nullable)block;
+//-(BOOL)sk_none:(SK_PredicateBlock _Nullable)block;
+//
+//
+//-(id _Nullable)sk_find:(SK_PredicateBlock _Nullable)block {
+//    if( !block ) {
+//        return nil;
+//    }
+//    __block id result = nil;
+//    [self enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+//        if( block( obj ) ) {
+//            result = obj;
+//            *stop = YES;
+//        }
+//    }];
+//    return result;
+//}
 
 @end
