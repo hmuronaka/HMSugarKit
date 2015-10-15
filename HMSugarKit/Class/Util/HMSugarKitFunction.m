@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "HMSugarKitFunction.h"
 
 NSComparisonResult sk_compareDouble(double v1, double v2) {
     
@@ -37,4 +38,13 @@ BOOL sk_greaterOrEqualDouble(double v1, double v2) {
 
 BOOL sk_greaterDouble(double v1, double v2) {
     return v1 > v2;
+}
+
+BOOL sk_equalDoubleAccuracy(double v1, double v2, double epsilon) {
+    return fabs(v1 - v2) < epsilon;
+}
+
+BOOL sk_equalLocationCoordinate2D(CLLocationCoordinate2D v1, CLLocationCoordinate2D v2) {
+    return sk_equalDoubleAccuracy(v1.latitude, v2.latitude, DBL_EPSILON) &&
+    sk_equalDoubleAccuracy(v1.longitude, v2.longitude, DBL_EPSILON);
 }

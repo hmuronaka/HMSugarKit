@@ -1,9 +1,9 @@
 //
-//  PiaShareLog.h
-//  PiaShare
+//  HMSugarKitLog.h
+//  HMSugarKit
 //
 //  Created by MuronakaHiroaki on 2015/10/15.
-//  Copyright © 2015年 plusadd. All rights reserved.
+//  Copyright © 2015年 hmuronaka. All rights reserved.
 //
 
 #define NSLog(format, ...) NSLog(@"%20s%5d: " format, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);

@@ -48,8 +48,6 @@
 		D6C592C71BC622A300EFEC9E /* SKStep.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C592C51BC622A300EFEC9E /* SKStep.m */; settings = {ASSET_TAGS = (); }; };
 		D6C592C91BC6283500EFEC9E /* SKStepTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C592C81BC6283500EFEC9E /* SKStepTest.m */; settings = {ASSET_TAGS = (); }; };
 		D6CC11BE1BCF9B13004769F4 /* SKLog.h in Headers */ = {isa = PBXBuildFile; fileRef = D6CC11BC1BCF9B13004769F4 /* SKLog.h */; settings = {ASSET_TAGS = (); }; };
-		D6CC11C21BCF9BE0004769F4 /* HMSugarKitFunc.h in Headers */ = {isa = PBXBuildFile; fileRef = D6CC11C01BCF9BE0004769F4 /* HMSugarKitFunc.h */; settings = {ASSET_TAGS = (); }; };
-		D6CC11C31BCF9BE0004769F4 /* HMSugarKitFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CC11C11BCF9BE0004769F4 /* HMSugarKitFunc.m */; settings = {ASSET_TAGS = (); }; };
 		D6D61EAF1BC53B1C00B150E6 /* NSSet+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D61EAD1BC53B1C00B150E6 /* NSSet+HMSugarKit.h */; settings = {ASSET_TAGS = (); }; };
 		D6D61EB01BC53B1C00B150E6 /* NSSet+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D61EAE1BC53B1C00B150E6 /* NSSet+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
 		D6D61EB31BC53B2700B150E6 /* NSDate+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D61EB11BC53B2700B150E6 /* NSDate+HMSugarKit.h */; settings = {ASSET_TAGS = (); }; };
@@ -116,8 +114,6 @@
 		D6C592C51BC622A300EFEC9E /* SKStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKStep.m; path = Class/Util/SKStep.m; sourceTree = "<group>"; };
 		D6C592C81BC6283500EFEC9E /* SKStepTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKStepTest.m; sourceTree = "<group>"; };
 		D6CC11BC1BCF9B13004769F4 /* SKLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKLog.h; sourceTree = "<group>"; };
-		D6CC11C01BCF9BE0004769F4 /* HMSugarKitFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HMSugarKitFunc.h; path = Class/Util/HMSugarKitFunc.h; sourceTree = "<group>"; };
-		D6CC11C11BCF9BE0004769F4 /* HMSugarKitFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMSugarKitFunc.m; path = Class/Util/HMSugarKitFunc.m; sourceTree = "<group>"; };
 		D6D538F91BC22840002DB852 /* HMSugarKitCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMSugarKitCommon.h; sourceTree = "<group>"; };
 		D6D61EAD1BC53B1C00B150E6 /* NSSet+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSSet+HMSugarKit.h"; path = "Class/Core/NSSet+HMSugarKit.h"; sourceTree = "<group>"; };
 		D6D61EAE1BC53B1C00B150E6 /* NSSet+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSSet+HMSugarKit.m"; path = "Class/Core/NSSet+HMSugarKit.m"; sourceTree = "<group>"; };
@@ -260,8 +256,6 @@
 				D6C592C51BC622A300EFEC9E /* SKStep.m */,
 				D629EA321BCA18B3009295F5 /* SKQueue.h */,
 				D629EA331BCA18B3009295F5 /* SKQueue.m */,
-				D6CC11C01BCF9BE0004769F4 /* HMSugarKitFunc.h */,
-				D6CC11C11BCF9BE0004769F4 /* HMSugarKitFunc.m */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -305,7 +299,6 @@
 				D6542CF31BCB6B570041397D /* UIView+HMSugarKit.h in Headers */,
 				D696A3751BCFCD8A006B3EE6 /* HMSugarKitFunction.h in Headers */,
 				D6C592C11BC6220500EFEC9E /* UISlider+HMSugarKit.h in Headers */,
-				D6CC11C21BCF9BE0004769F4 /* HMSugarKitFunc.h in Headers */,
 				D629EA341BCA18B3009295F5 /* SKQueue.h in Headers */,
 				D69008991BBA7AB2005FF1B2 /* HMSugarKit.h in Headers */,
 				D69008B21BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.h in Headers */,
@@ -441,7 +434,6 @@
 				D629EA351BCA18B3009295F5 /* SKQueue.m in Sources */,
 				D6542CF41BCB6B570041397D /* UIView+HMSugarKit.m in Sources */,
 				D6A4D6871BBACEA3007AC112 /* NSArray+HMSugarKit.m in Sources */,
-				D6CC11C31BCF9BE0004769F4 /* HMSugarKitFunc.m in Sources */,
 				D6D61EB41BC53B2700B150E6 /* NSDate+HMSugarKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
