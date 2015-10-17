@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		470DDF5222885944D2D82397 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 044E33A542349AF9F26C5956 /* libPods.a */; };
+		D6047C751BD21F0C00939ACB /* NSFetchedResultsController+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D6047C731BD21F0C00939ACB /* NSFetchedResultsController+HMSugarKit.h */; settings = {ASSET_TAGS = (); }; };
+		D6047C761BD21F0C00939ACB /* NSFetchedResultsController+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6047C741BD21F0C00939ACB /* NSFetchedResultsController+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
+		D6047C791BD21F1700939ACB /* MPMediaPickerController+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D6047C771BD21F1700939ACB /* MPMediaPickerController+HMSugarKit.h */; settings = {ASSET_TAGS = (); }; };
+		D6047C7A1BD21F1700939ACB /* MPMediaPickerController+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6047C781BD21F1700939ACB /* MPMediaPickerController+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
 		D61920D81BCDE4A000EF9896 /* UITextField+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D61920D61BCDE4A000EF9896 /* UITextField+HMSugarKit.h */; settings = {ASSET_TAGS = (); }; };
 		D61920D91BCDE4A000EF9896 /* UITextField+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D61920D71BCDE4A000EF9896 /* UITextField+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
 		D624EA751BC7504D00B9B193 /* UIScrollView+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D624EA731BC7504D00B9B193 /* UIScrollView+HMSugarKit.h */; settings = {ASSET_TAGS = (); }; };
@@ -73,6 +78,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		044E33A542349AF9F26C5956 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6836A28903DA31121BD78DE5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		85C14E9673F3BCFAC90E1A05 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D6047C731BD21F0C00939ACB /* NSFetchedResultsController+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFetchedResultsController+HMSugarKit.h"; sourceTree = "<group>"; };
+		D6047C741BD21F0C00939ACB /* NSFetchedResultsController+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFetchedResultsController+HMSugarKit.m"; sourceTree = "<group>"; };
+		D6047C771BD21F1700939ACB /* MPMediaPickerController+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MPMediaPickerController+HMSugarKit.h"; sourceTree = "<group>"; };
+		D6047C781BD21F1700939ACB /* MPMediaPickerController+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MPMediaPickerController+HMSugarKit.m"; sourceTree = "<group>"; };
 		D61920D61BCDE4A000EF9896 /* UITextField+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+HMSugarKit.h"; path = "Class/UIKit/UITextField+HMSugarKit.h"; sourceTree = "<group>"; };
 		D61920D71BCDE4A000EF9896 /* UITextField+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+HMSugarKit.m"; path = "Class/UIKit/UITextField+HMSugarKit.m"; sourceTree = "<group>"; };
 		D624EA731BC7504D00B9B193 /* UIScrollView+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+HMSugarKit.h"; path = "Class/UIKit/UIScrollView+HMSugarKit.h"; sourceTree = "<group>"; };
@@ -133,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				470DDF5222885944D2D82397 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +160,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6A7AE69EAADA53ACFFBB516 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				044E33A542349AF9F26C5956 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B23F987FBC34AA4D545A0C59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6836A28903DA31121BD78DE5 /* Pods.debug.xcconfig */,
+				85C14E9673F3BCFAC90E1A05 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6047C711BD21EEB00939ACB /* MediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				D6047C771BD21F1700939ACB /* MPMediaPickerController+HMSugarKit.h */,
+				D6047C781BD21F1700939ACB /* MPMediaPickerController+HMSugarKit.m */,
+			);
+			name = MediaPlayer;
+			sourceTree = "<group>";
+		};
+		D6047C721BD21F0100939ACB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D6047C731BD21F0C00939ACB /* NSFetchedResultsController+HMSugarKit.h */,
+				D6047C741BD21F0C00939ACB /* NSFetchedResultsController+HMSugarKit.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
 		D68BFFEF1BC2642B00822BE5 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +222,8 @@
 				D69008971BBA7AB2005FF1B2 /* HMSugarKit */,
 				D69008A31BBA7AB2005FF1B2 /* HMSugarKitTests */,
 				D69008961BBA7AB2005FF1B2 /* Products */,
+				B23F987FBC34AA4D545A0C59 /* Pods */,
+				A6A7AE69EAADA53ACFFBB516 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -189,6 +239,8 @@
 		D69008971BBA7AB2005FF1B2 /* HMSugarKit */ = {
 			isa = PBXGroup;
 			children = (
+				D6047C721BD21F0100939ACB /* CoreData */,
+				D6047C711BD21EEB00939ACB /* MediaPlayer */,
 				D6CC11CD1BCF9D2B004769F4 /* MapKit */,
 				D6CC11C41BCF9C93004769F4 /* CoreLocation */,
 				D6CC11BB1BCF9AFB004769F4 /* Log */,
@@ -307,10 +359,12 @@
 				D624EA751BC7504D00B9B193 /* UIScrollView+HMSugarKit.h in Headers */,
 				D6CC11BE1BCF9B13004769F4 /* SKLog.h in Headers */,
 				D696A36D1BCFCD38006B3EE6 /* GetDistanceHubeny.h in Headers */,
+				D6047C751BD21F0C00939ACB /* NSFetchedResultsController+HMSugarKit.h in Headers */,
 				D696A3711BCFCD63006B3EE6 /* UIViewController+HMSugarKit.h in Headers */,
 				D69008B71BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.h in Headers */,
 				D696A36B1BCFCD38006B3EE6 /* CLLocation+HMSugarKit.h in Headers */,
 				D6D61EB91BC53B5600B150E6 /* UIKitFunction+HMSugarKit.h in Headers */,
+				D6047C791BD21F1700939ACB /* MPMediaPickerController+HMSugarKit.h in Headers */,
 				D6D61EAF1BC53B1C00B150E6 /* NSSet+HMSugarKit.h in Headers */,
 				D6D61EBB1BC53B5600B150E6 /* UITableView+HMSugarKit.h in Headers */,
 				D696A3611BCE82B0006B3EE6 /* NSURL+HMSugarKit.h in Headers */,
@@ -325,10 +379,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D69008A91BBA7AB2005FF1B2 /* Build configuration list for PBXNativeTarget "HMSugarKit" */;
 			buildPhases = (
+				47AF40C59D07275E6D6AADD1 /* Check Pods Manifest.lock */,
 				D69008901BBA7AB2005FF1B2 /* Sources */,
 				D69008911BBA7AB2005FF1B2 /* Frameworks */,
 				D69008921BBA7AB2005FF1B2 /* Headers */,
 				D69008931BBA7AB2005FF1B2 /* Resources */,
+				B9D946B8AC5D49747A93B866 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -410,6 +466,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47AF40C59D07275E6D6AADD1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9D946B8AC5D49747A93B866 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D69008901BBA7AB2005FF1B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -429,6 +518,8 @@
 				D69008B81BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.m in Sources */,
 				D696A36E1BCFCD38006B3EE6 /* GetDistanceHubeny.m in Sources */,
 				D6C592C71BC622A300EFEC9E /* SKStep.m in Sources */,
+				D6047C7A1BD21F1700939ACB /* MPMediaPickerController+HMSugarKit.m in Sources */,
+				D6047C761BD21F0C00939ACB /* NSFetchedResultsController+HMSugarKit.m in Sources */,
 				D6E7D03E1BBBB63B00F80BFA /* SKRange.m in Sources */,
 				D696A3621BCE82B0006B3EE6 /* NSURL+HMSugarKit.m in Sources */,
 				D629EA351BCA18B3009295F5 /* SKQueue.m in Sources */,
@@ -555,6 +646,7 @@
 		};
 		D69008AA1BBA7AB2005FF1B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6836A28903DA31121BD78DE5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -571,6 +663,7 @@
 		};
 		D69008AB1BBA7AB2005FF1B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C14E9673F3BCFAC90E1A05 /* Pods.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
