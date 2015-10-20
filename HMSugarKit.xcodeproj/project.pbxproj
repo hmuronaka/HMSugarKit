@@ -65,6 +65,11 @@
 		D6E7D03D1BBBB63B00F80BFA /* SKRange.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E7D03B1BBBB63B00F80BFA /* SKRange.h */; settings = {ASSET_TAGS = (); }; };
 		D6E7D03E1BBBB63B00F80BFA /* SKRange.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E7D03C1BBBB63B00F80BFA /* SKRange.m */; settings = {ASSET_TAGS = (); }; };
 		D6E7D03F1BBBB63B00F80BFA /* SKRange.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E7D03C1BBBB63B00F80BFA /* SKRange.m */; settings = {ASSET_TAGS = (); }; };
+		D6EB50281BD28B240091E20E /* SKTimeInterval.h in Headers */ = {isa = PBXBuildFile; fileRef = D6EB50261BD28B240091E20E /* SKTimeInterval.h */; settings = {ASSET_TAGS = (); }; };
+		D6EB50291BD28B240091E20E /* SKTimeInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EB50271BD28B240091E20E /* SKTimeInterval.m */; settings = {ASSET_TAGS = (); }; };
+		D6EB502C1BD28EB90091E20E /* HMSugarKitFilePath.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EB502B1BD28EB90091E20E /* HMSugarKitFilePath.m */; settings = {ASSET_TAGS = (); }; };
+		D6EB505B1BD3217E0091E20E /* NSBundle+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D6EB50591BD3217E0091E20E /* NSBundle+HMSugarKit.h */; settings = {ASSET_TAGS = (); }; };
+		D6EB505C1BD3217E0091E20E /* NSBundle+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EB505A1BD3217E0091E20E /* NSBundle+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,6 +143,12 @@
 		D6E28D921BBE33420094F714 /* SKRangeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRangeTest.m; sourceTree = "<group>"; };
 		D6E7D03B1BBBB63B00F80BFA /* SKRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKRange.h; path = Class/Core/SKRange.h; sourceTree = "<group>"; };
 		D6E7D03C1BBBB63B00F80BFA /* SKRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKRange.m; path = Class/Core/SKRange.m; sourceTree = "<group>"; };
+		D6EB50261BD28B240091E20E /* SKTimeInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTimeInterval.h; sourceTree = "<group>"; };
+		D6EB50271BD28B240091E20E /* SKTimeInterval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTimeInterval.m; sourceTree = "<group>"; };
+		D6EB502A1BD28E2A0091E20E /* HMSugarKitFilePath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMSugarKitFilePath.h; sourceTree = "<group>"; };
+		D6EB502B1BD28EB90091E20E /* HMSugarKitFilePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMSugarKitFilePath.m; path = Class/HMSugarKitFilePath.m; sourceTree = "<group>"; };
+		D6EB50591BD3217E0091E20E /* NSBundle+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+HMSugarKit.h"; sourceTree = "<group>"; };
+		D6EB505A1BD3217E0091E20E /* NSBundle+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+HMSugarKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,8 +293,12 @@
 				D6A4D6851BBACEA3007AC112 /* NSArray+HMSugarKit.m */,
 				D6E7D03B1BBBB63B00F80BFA /* SKRange.h */,
 				D6E7D03C1BBBB63B00F80BFA /* SKRange.m */,
+				D6EB50261BD28B240091E20E /* SKTimeInterval.h */,
+				D6EB50271BD28B240091E20E /* SKTimeInterval.m */,
 				D646F1261BC37C4D00F2FF2F /* NSObject+HMSugarKit.h */,
 				D646F1271BC37C4D00F2FF2F /* NSObject+HMSugarKit.m */,
+				D6EB50591BD3217E0091E20E /* NSBundle+HMSugarKit.h */,
+				D6EB505A1BD3217E0091E20E /* NSBundle+HMSugarKit.m */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -308,6 +323,8 @@
 				D6C592C51BC622A300EFEC9E /* SKStep.m */,
 				D629EA321BCA18B3009295F5 /* SKQueue.h */,
 				D629EA331BCA18B3009295F5 /* SKQueue.m */,
+				D6EB502A1BD28E2A0091E20E /* HMSugarKitFilePath.h */,
+				D6EB502B1BD28EB90091E20E /* HMSugarKitFilePath.m */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -358,12 +375,14 @@
 				D61920D81BCDE4A000EF9896 /* UITextField+HMSugarKit.h in Headers */,
 				D624EA751BC7504D00B9B193 /* UIScrollView+HMSugarKit.h in Headers */,
 				D6CC11BE1BCF9B13004769F4 /* SKLog.h in Headers */,
+				D6EB50281BD28B240091E20E /* SKTimeInterval.h in Headers */,
 				D696A36D1BCFCD38006B3EE6 /* GetDistanceHubeny.h in Headers */,
 				D6047C751BD21F0C00939ACB /* NSFetchedResultsController+HMSugarKit.h in Headers */,
 				D696A3711BCFCD63006B3EE6 /* UIViewController+HMSugarKit.h in Headers */,
 				D69008B71BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.h in Headers */,
 				D696A36B1BCFCD38006B3EE6 /* CLLocation+HMSugarKit.h in Headers */,
 				D6D61EB91BC53B5600B150E6 /* UIKitFunction+HMSugarKit.h in Headers */,
+				D6EB505B1BD3217E0091E20E /* NSBundle+HMSugarKit.h in Headers */,
 				D6047C791BD21F1700939ACB /* MPMediaPickerController+HMSugarKit.h in Headers */,
 				D6D61EAF1BC53B1C00B150E6 /* NSSet+HMSugarKit.h in Headers */,
 				D6D61EBB1BC53B5600B150E6 /* UITableView+HMSugarKit.h in Headers */,
@@ -510,14 +529,17 @@
 				D6C592C21BC6220500EFEC9E /* UISlider+HMSugarKit.m in Sources */,
 				D646F1291BC37C4D00F2FF2F /* NSObject+HMSugarKit.m in Sources */,
 				D6D61EB01BC53B1C00B150E6 /* NSSet+HMSugarKit.m in Sources */,
+				D6EB50291BD28B240091E20E /* SKTimeInterval.m in Sources */,
 				D696A3721BCFCD63006B3EE6 /* UIViewController+HMSugarKit.m in Sources */,
 				D61920D91BCDE4A000EF9896 /* UITextField+HMSugarKit.m in Sources */,
 				D6D61EBC1BC53B5600B150E6 /* UITableView+HMSugarKit.m in Sources */,
 				D6D61EBA1BC53B5600B150E6 /* UIKitFunction+HMSugarKit.m in Sources */,
+				D6EB502C1BD28EB90091E20E /* HMSugarKitFilePath.m in Sources */,
 				D624EA761BC7504D00B9B193 /* UIScrollView+HMSugarKit.m in Sources */,
 				D69008B81BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.m in Sources */,
 				D696A36E1BCFCD38006B3EE6 /* GetDistanceHubeny.m in Sources */,
 				D6C592C71BC622A300EFEC9E /* SKStep.m in Sources */,
+				D6EB505C1BD3217E0091E20E /* NSBundle+HMSugarKit.m in Sources */,
 				D6047C7A1BD21F1700939ACB /* MPMediaPickerController+HMSugarKit.m in Sources */,
 				D6047C761BD21F0C00939ACB /* NSFetchedResultsController+HMSugarKit.m in Sources */,
 				D6E7D03E1BBBB63B00F80BFA /* SKRange.m in Sources */,

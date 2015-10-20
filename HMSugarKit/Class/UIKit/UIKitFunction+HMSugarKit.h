@@ -33,3 +33,11 @@ CGPoint sk_CGPointAddValues(CGPoint point, CGFloat width, CGFloat height);
 CGPoint sk_CGPointAdd(CGPoint point1, CGPoint point2);
 NSString* sk_CGPointString(CGPoint point);
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark -
+#pragma mark CGRect
+
+// Diagonal:対角
+CGRect sk_CGRectMakeFromDiagonal(CGPoint point1, CGPoint point2);
+CGRect sk_CGRectMakeFromLines(NSArray* points);
+

@@ -144,4 +144,10 @@ BOOL sk_isEqualDouble(double v1, double v2) {
     }
 }
 
+#pragma mark convert
+
+-(NSTimeInterval)sk_toTimeInterval {
+    return [self doubleValue];
+}
+
 @end

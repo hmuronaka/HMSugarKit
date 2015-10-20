@@ -13,5 +13,6 @@ typedef void (^SKViewBlock)(UIView* view);
 @interface UIView (HMSugarKit)
 
 -(void)sk_traverseWithBlock:(SKViewBlock _Nullable)block;
+-(UIImage*)sk_toImage;
 
 @end

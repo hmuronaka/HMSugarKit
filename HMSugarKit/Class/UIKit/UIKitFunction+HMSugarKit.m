@@ -6,6 +6,7 @@
 //  Copyright © 2015年 Muronaka Hiroaki. All rights reserved.
 //
 
+#import <BlocksKit/NSArray+BlocksKit.h>
 #import "UIKitFunction+HMSugarKit.h"
 
 static NSString* SK_CGSizeDefaultStringFormat = @"(W=%f, H=%f)";
@@ -81,4 +82,43 @@ CGPoint sk_CGPointAddValues(CGPoint point, CGFloat x, CGFloat y) {
 
 NSString* sk_CGPointString(CGPoint point) {
     return [NSString stringWithFormat:SK_CGPointDefaultStringFormat, point.x, point.y];
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark -
+#pragma mark CGRect
+
+CGRect sk_CGRectMakeFromDiagonal(CGPoint point1, CGPoint point2) {
+    
+    CGFloat x = MIN(point1.x, point2.x);
+    CGFloat y = MIN(point1.y, point2.y);
+    CGFloat width = MAX(point1.x, point2.x) - x;
+    CGFloat height = MAX(point1.y, point2.y) - y;
+    CGRect rect = CGRectMake(x, y, width, height);
+    
+    return rect;
+}
+
+CGRect sk_CGRectMakeFromLines(NSArray* points) {
+    
+    CGPoint first = [points.firstObject CGPointValue];
+    CGFloat minX = [points bk_reduceFloat:first.x withBlock:^CGFloat(CGFloat result, id obj) {
+        CGPoint other = [obj CGPointValue];
+        return MIN(result, other.x);
+    }];
+    CGFloat minY = [points bk_reduceFloat:first.y withBlock:^CGFloat(CGFloat result, id obj) {
+        CGPoint other = [obj CGPointValue];
+        return MIN(result, other.y);
+    }];
+    CGFloat maxX = [points bk_reduceFloat:first.x withBlock:^CGFloat(CGFloat result, id obj) {
+        CGPoint other = [obj CGPointValue];
+        return MAX(result, other.x);
+    }];
+    CGFloat maxY = [points bk_reduceFloat:first.y withBlock:^CGFloat(CGFloat result, id obj) {
+        CGPoint other = [obj CGPointValue];
+        return MAX(result, other.y);
+    }];
+    
+    CGRect rect = CGRectMake(minX, minY, maxX - minX, maxY - minY);
+    return rect;
 }

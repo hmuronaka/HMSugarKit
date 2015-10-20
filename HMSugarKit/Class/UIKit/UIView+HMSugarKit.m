@@ -22,6 +22,17 @@
     [self pr_traverseWithView:self block:block];
 }
 
+-(UIImage*)sk_toImage {
+    UIGraphicsBeginImageContextWithOptions(self.bounds.size, self.opaque, 0.0);
+    [self.layer renderInContext:UIGraphicsGetCurrentContext()];
+    
+    UIImage * img = UIGraphicsGetImageFromCurrentImageContext();
+    
+    UIGraphicsEndImageContext();
+    
+    return img;
+}
+
 /////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark -
 #pragma mark private
