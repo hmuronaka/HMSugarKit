@@ -56,6 +56,8 @@
 		D6C592C61BC622A300EFEC9E /* SKStep.h in Headers */ = {isa = PBXBuildFile; fileRef = D6C592C41BC622A300EFEC9E /* SKStep.h */; settings = {ASSET_TAGS = (); }; };
 		D6C592C71BC622A300EFEC9E /* SKStep.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C592C51BC622A300EFEC9E /* SKStep.m */; settings = {ASSET_TAGS = (); }; };
 		D6C592C91BC6283500EFEC9E /* SKStepTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C592C81BC6283500EFEC9E /* SKStepTest.m */; settings = {ASSET_TAGS = (); }; };
+		D6CBE82A1BD66F6E00466C0E /* NSOrderedSet+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D6CBE8281BD66F6E00466C0E /* NSOrderedSet+HMSugarKit.h */; settings = {ASSET_TAGS = (); }; };
+		D6CBE82B1BD66F6E00466C0E /* NSOrderedSet+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CBE8291BD66F6E00466C0E /* NSOrderedSet+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
 		D6CC11BE1BCF9B13004769F4 /* SKLog.h in Headers */ = {isa = PBXBuildFile; fileRef = D6CC11BC1BCF9B13004769F4 /* SKLog.h */; settings = {ASSET_TAGS = (); }; };
 		D6D61EAF1BC53B1C00B150E6 /* NSSet+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D61EAD1BC53B1C00B150E6 /* NSSet+HMSugarKit.h */; settings = {ASSET_TAGS = (); }; };
 		D6D61EB01BC53B1C00B150E6 /* NSSet+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D61EAE1BC53B1C00B150E6 /* NSSet+HMSugarKit.m */; settings = {ASSET_TAGS = (); }; };
@@ -138,6 +140,8 @@
 		D6C592C41BC622A300EFEC9E /* SKStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKStep.h; path = Class/Util/SKStep.h; sourceTree = "<group>"; };
 		D6C592C51BC622A300EFEC9E /* SKStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKStep.m; path = Class/Util/SKStep.m; sourceTree = "<group>"; };
 		D6C592C81BC6283500EFEC9E /* SKStepTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKStepTest.m; sourceTree = "<group>"; };
+		D6CBE8281BD66F6E00466C0E /* NSOrderedSet+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSOrderedSet+HMSugarKit.h"; path = "Class/Core/NSOrderedSet+HMSugarKit.h"; sourceTree = "<group>"; };
+		D6CBE8291BD66F6E00466C0E /* NSOrderedSet+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSOrderedSet+HMSugarKit.m"; path = "Class/Core/NSOrderedSet+HMSugarKit.m"; sourceTree = "<group>"; };
 		D6CC11BC1BCF9B13004769F4 /* SKLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKLog.h; sourceTree = "<group>"; };
 		D6D538F91BC22840002DB852 /* HMSugarKitCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMSugarKitCommon.h; sourceTree = "<group>"; };
 		D6D61EAD1BC53B1C00B150E6 /* NSSet+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSSet+HMSugarKit.h"; path = "Class/Core/NSSet+HMSugarKit.h"; sourceTree = "<group>"; };
@@ -319,6 +323,8 @@
 				D646F1271BC37C4D00F2FF2F /* NSObject+HMSugarKit.m */,
 				D6EB50591BD3217E0091E20E /* NSBundle+HMSugarKit.h */,
 				D6EB505A1BD3217E0091E20E /* NSBundle+HMSugarKit.m */,
+				D6CBE8281BD66F6E00466C0E /* NSOrderedSet+HMSugarKit.h */,
+				D6CBE8291BD66F6E00466C0E /* NSOrderedSet+HMSugarKit.m */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -390,6 +396,7 @@
 				D6C592C11BC6220500EFEC9E /* UISlider+HMSugarKit.h in Headers */,
 				D629EA341BCA18B3009295F5 /* SKQueue.h in Headers */,
 				D69008991BBA7AB2005FF1B2 /* HMSugarKit.h in Headers */,
+				D6CBE82A1BD66F6E00466C0E /* NSOrderedSet+HMSugarKit.h in Headers */,
 				D69008B21BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.h in Headers */,
 				D68B5A801BD644520023DB6B /* SKSlideViewControllerTransitionAnimation.h in Headers */,
 				D646F1281BC37C4D00F2FF2F /* NSObject+HMSugarKit.h in Headers */,
@@ -549,6 +556,7 @@
 				D69008B31BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.m in Sources */,
 				D696A3761BCFCD8A006B3EE6 /* HMSugarKitFunction.m in Sources */,
 				D6C592C21BC6220500EFEC9E /* UISlider+HMSugarKit.m in Sources */,
+				D6CBE82B1BD66F6E00466C0E /* NSOrderedSet+HMSugarKit.m in Sources */,
 				D6A324301BD5E5E400AAB4DA /* UIWebView+HMSugarKit.m in Sources */,
 				D646F1291BC37C4D00F2FF2F /* NSObject+HMSugarKit.m in Sources */,
 				D68B5A811BD644520023DB6B /* SKSlideViewControllerTransitionAnimation.m in Sources */,
