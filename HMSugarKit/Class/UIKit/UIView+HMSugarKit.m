@@ -24,6 +24,22 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark -
+#pragma mark util
+
+-(void)sk_addGestureRecognizers:(NSArray*)gestureRecognizers {
+    [gestureRecognizers enumerateObjectsUsingBlock:^(UIGestureRecognizer*  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        [self addGestureRecognizer:obj];
+    }];
+}
+
+-(void)sk_removeGestureRecognizers:(NSArray*)gestureRecognizers {
+    [gestureRecognizers enumerateObjectsUsingBlock:^(UIGestureRecognizer*  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        [self removeGestureRecognizer:obj];
+    }];
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark -
 #pragma mark private
 
 -(void)pr_traverseWithView:(UIView* _Nonnull)view block:(SKViewBlock _Nullable)block {

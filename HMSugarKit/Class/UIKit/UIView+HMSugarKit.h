@@ -14,4 +14,7 @@ typedef void (^SKViewBlock)(UIView* view);
 
 -(void)sk_traverseWithBlock:(SKViewBlock _Nullable)block;
 
+-(void)sk_addGestureRecognizers:(NSArray*)gestureRecognizers;
+-(void)sk_removeGestureRecognizers:(NSArray*)gestureRecognizers;
+
 @end
