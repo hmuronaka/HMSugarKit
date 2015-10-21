@@ -110,4 +110,20 @@
 //    return result;
 //}
 
+-(NSArray*)sk_arrayByUniqueWithEqualable:(BOOL (^)(id obj1, id obj2))equalable {
+    NSMutableArray* result = [NSMutableArray array];
+    
+    [self enumerateObjectsUsingBlock:^(id  _Nonnull obj1, NSUInteger idx, BOOL * _Nonnull stop) {
+        BOOL isNone = [result sk_none:^BOOL(id obj2) {
+            return equalable(obj1, obj2);
+        }];
+        
+        if( isNone ) {
+            [result addObject:obj1];
+        }
+    }];
+    
+    return [result copy];
+}
+
 @end

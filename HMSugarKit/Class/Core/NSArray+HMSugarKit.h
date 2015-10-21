@@ -33,5 +33,7 @@ typedef BOOL (^SK_PredicateBlock)(id _Nonnull value);
 -(BOOL)sk_all:(SK_PredicateBlock _Nullable)block;
 -(BOOL)sk_none:(SK_PredicateBlock _Nullable)block;
 
+-(NSArray*)sk_arrayByUniqueWithEqualable:(BOOL (^)(id obj1, id obj2))equalable;
+
 
 @end
