@@ -12,10 +12,12 @@
 @interface NSArray (HMSugarKit)
 
 typedef id _Nonnull (^SK_IDBlock)(id _Nonnull value, HMSugarKitBlockStatus* _Nonnull blockStatus);
+typedef id _Nonnull (^SK_IDBlockWithIndex)(id _Nonnull value, NSUInteger index, HMSugarKitBlockStatus* _Nonnull blockStatus);
 typedef BOOL (^SK_PredicateBlock)(id _Nonnull value);
 
 -(NSArray* _Nonnull)sk_merge:(NSArray* _Nullable)other;
 -(NSArray* _Nonnull)sk_map:(SK_IDBlock _Nullable)block;
+-(NSArray* _Nonnull)sk_mapWithIndex:(SK_IDBlockWithIndex _Nullable)block;
 
 -(id _Nullable)sk_find:(SK_PredicateBlock _Nullable)block;
 -(id _Nullable)sk_findFromIndex:(NSInteger)index block:(SK_PredicateBlock _Nullable)block;

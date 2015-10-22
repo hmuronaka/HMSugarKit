@@ -38,6 +38,27 @@
     return [result copy];
 }
 
+-(NSArray* _Nonnull)sk_mapWithIndex:(SK_IDBlockWithIndex)block {
+    if( !block ) {
+        return self;
+    }
+    
+    NSMutableArray* result = [[NSMutableArray alloc] initWithCapacity:self.count];
+    [self enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        HMSugarKitBlockStatus blockStatus = HMSugarKitBlockStatusNone;
+        id blockResult = block(obj, idx, &blockStatus);
+        if( blockStatus == HMSugarKitBlockStatusContinue ) {
+            ;
+        } else if( blockStatus == HMSugarKitBlockStatusBreak ) {
+            *stop = YES;
+        } else {
+            [result addObject:blockResult];
+        }
+    }];
+    
+    return [result copy];
+}
+
 
 -(id _Nullable)sk_find:(SK_PredicateBlock _Nullable)block {
     if( !block ) {
