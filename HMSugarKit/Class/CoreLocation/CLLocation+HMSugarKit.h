@@ -16,12 +16,13 @@
 
 @interface CLLocation(HMSugarKit)
 
--(double)latitude;
--(double)longitude;
--(double)distance:(CLLocation*)other;
+-(double)sk_latitude;
+-(double)sk_longitude;
+-(double)sk_distance:(CLLocation*)other;
++(CLLocation*)sk_locationFromCLLocationCoordinate2D:(CLLocationCoordinate2D)coordinate2D;
 
 #ifdef USE_MAP_KIT
--(MKCoordinateRegion)toRegionWithLatitudeMeters:(CLLocationDistance)latitudinalMeters longitudeMeters:(CLLocationDistance)longitudinalMeters;
+-(MKCoordinateRegion)sk_toRegionWithLatitudeMeters:(CLLocationDistance)latitudinalMeters longitudeMeters:(CLLocationDistance)longitudinalMeters;
 #endif
 
 @end

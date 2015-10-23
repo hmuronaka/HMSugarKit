@@ -11,16 +11,22 @@
 
 @implementation CLLocation (HMSugarKit)
 
--(double)longitude {
+-(double)sk_longitude {
     return self.coordinate.longitude;
 }
 
--(double)latitude {
+-(double)sk_latitude {
     return self.coordinate.latitude;
 }
 
--(double)distance:(CLLocation*)other {
-    return getDistanceHubeny(self.longitude, self.latitude, other.longitude, other.latitude);
+-(double)sk_distance:(CLLocation*)other {
+    return getDistanceHubeny(self.sk_longitude, self.sk_latitude, other.sk_longitude, other.sk_latitude);
+}
+
+
++(CLLocation*)sk_locationFromCLLocationCoordinate2D:(CLLocationCoordinate2D)coordinate2D {
+    CLLocation* location = [[CLLocation alloc] initWithLatitude:coordinate2D.latitude longitude:coordinate2D.longitude];
+    return location;
 }
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
@@ -29,7 +35,7 @@
 
 #ifdef USE_MAP_KIT
 
--(MKCoordinateRegion)toRegionWithLatitudeMeters:(CLLocationDistance)latitudinalMeters longitudeMeters:(CLLocationDistance)longitudinalMeters {
+-(MKCoordinateRegion)sk_toRegionWithLatitudeMeters:(CLLocationDistance)latitudinalMeters longitudeMeters:(CLLocationDistance)longitudinalMeters {
     MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(self.coordinate, latitudinalMeters, longitudinalMeters);
     return region;
 }
