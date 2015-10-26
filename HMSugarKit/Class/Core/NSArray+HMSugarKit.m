@@ -147,4 +147,14 @@
     return [result copy];
 }
 
+-(SK_VECTORIZE _Nonnull)sk_vectorize:(id _Nonnull (^ _Nonnull)(id _Nonnull obj))block {
+    
+    SK_VECTORIZE func = ^(NSArray* array) {
+        return [array sk_map:^id _Nonnull(id  _Nonnull value, HMSugarKitBlockStatus * _Nonnull blockStatus) {
+            return block(value);
+        }];
+    };
+    return func;
+}
+
 @end

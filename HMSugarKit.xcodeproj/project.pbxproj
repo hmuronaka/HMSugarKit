@@ -75,6 +75,7 @@
 		D6D61EBA1BC53B5600B150E6 /* UIKitFunction+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D61EB61BC53B5600B150E6 /* UIKitFunction+HMSugarKit.m */; };
 		D6D61EBB1BC53B5600B150E6 /* UITableView+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D61EB71BC53B5600B150E6 /* UITableView+HMSugarKit.h */; };
 		D6D61EBC1BC53B5600B150E6 /* UITableView+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D61EB81BC53B5600B150E6 /* UITableView+HMSugarKit.m */; };
+		D6E015321BDE567F00BCC24D /* NSArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E015311BDE567F00BCC24D /* NSArrayTest.m */; };
 		D6E28D931BBE33420094F714 /* SKRangeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E28D921BBE33420094F714 /* SKRangeTest.m */; };
 		D6E7D03D1BBBB63B00F80BFA /* SKRange.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E7D03B1BBBB63B00F80BFA /* SKRange.h */; };
 		D6E7D03E1BBBB63B00F80BFA /* SKRange.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E7D03C1BBBB63B00F80BFA /* SKRange.m */; };
@@ -164,6 +165,7 @@
 		D6D61EB61BC53B5600B150E6 /* UIKitFunction+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIKitFunction+HMSugarKit.m"; path = "Class/UIKit/UIKitFunction+HMSugarKit.m"; sourceTree = "<group>"; };
 		D6D61EB71BC53B5600B150E6 /* UITableView+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableView+HMSugarKit.h"; path = "Class/UIKit/UITableView+HMSugarKit.h"; sourceTree = "<group>"; };
 		D6D61EB81BC53B5600B150E6 /* UITableView+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableView+HMSugarKit.m"; path = "Class/UIKit/UITableView+HMSugarKit.m"; sourceTree = "<group>"; };
+		D6E015311BDE567F00BCC24D /* NSArrayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayTest.m; sourceTree = "<group>"; };
 		D6E28D921BBE33420094F714 /* SKRangeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRangeTest.m; sourceTree = "<group>"; };
 		D6E7D03B1BBBB63B00F80BFA /* SKRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKRange.h; path = Class/Core/SKRange.h; sourceTree = "<group>"; };
 		D6E7D03C1BBBB63B00F80BFA /* SKRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKRange.m; path = Class/Core/SKRange.m; sourceTree = "<group>"; };
@@ -348,6 +350,7 @@
 				D6A4D6821BBAB84E007AC112 /* NSDictionary+HMSugarKitTest.m */,
 				D6E28D921BBE33420094F714 /* SKRangeTest.m */,
 				D6C592C81BC6283500EFEC9E /* SKStepTest.m */,
+				D6E015311BDE567F00BCC24D /* NSArrayTest.m */,
 			);
 			name = Class;
 			sourceTree = "<group>";
@@ -605,6 +608,7 @@
 			files = (
 				D6C592C91BC6283500EFEC9E /* SKStepTest.m in Sources */,
 				D69008BC1BBAB0E3005FF1B2 /* NSNumber+HMSugarKitTset.m in Sources */,
+				D6E015321BDE567F00BCC24D /* NSArrayTest.m in Sources */,
 				D69008B41BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.m in Sources */,
 				D69008A51BBA7AB2005FF1B2 /* HMSugarKitTests.m in Sources */,
 				D6A4D6831BBAB84E007AC112 /* NSDictionary+HMSugarKitTest.m in Sources */,

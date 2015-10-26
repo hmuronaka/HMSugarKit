@@ -15,6 +15,9 @@ typedef id _Nonnull (^SK_IDBlock)(id _Nonnull value, HMSugarKitBlockStatus* _Non
 typedef id _Nonnull (^SK_IDBlockWithIndex)(id _Nonnull value, NSUInteger index, HMSugarKitBlockStatus* _Nonnull blockStatus);
 typedef BOOL (^SK_PredicateBlock)(id _Nonnull value);
 
+typedef NSArray* _Nonnull (^SK_VECTORIZE)(NSArray* _Nonnull array);
+
+
 -(NSArray* _Nonnull)sk_merge:(NSArray* _Nullable)other;
 -(NSArray* _Nonnull)sk_map:(SK_IDBlock _Nullable)block;
 -(NSArray* _Nonnull)sk_mapWithIndex:(SK_IDBlockWithIndex _Nullable)block;
@@ -35,7 +38,8 @@ typedef BOOL (^SK_PredicateBlock)(id _Nonnull value);
 -(BOOL)sk_all:(SK_PredicateBlock _Nullable)block;
 -(BOOL)sk_none:(SK_PredicateBlock _Nullable)block;
 
--(NSArray*)sk_arrayByUniqueWithEqualable:(BOOL (^)(id obj1, id obj2))equalable;
+-(NSArray* _Nullable)sk_arrayByUniqueWithEqualable:(BOOL (^ _Nullable)(id _Nonnull obj1,  id _Nonnull obj2))equalable;
 
-
+-(SK_VECTORIZE _Nonnull)sk_vectorize:(id _Nonnull (^ _Nonnull)(id _Nonnull obj))block;
+                                          
 @end
