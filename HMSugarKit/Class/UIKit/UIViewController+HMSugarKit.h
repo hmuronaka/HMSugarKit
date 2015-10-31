@@ -12,4 +12,7 @@
 
 +(instancetype)sk_createFromNib;
 
+-(void)sk_showMessageWithTitle:(NSString*)title message:(NSString*)message;
+-(void)sk_showErrorMessage:(NSString*)message;
+
 @end

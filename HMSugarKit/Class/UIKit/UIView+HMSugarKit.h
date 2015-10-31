@@ -8,14 +8,27 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void (^SKViewBlock)(UIView* view);
+typedef void (^SKViewBlock)(UIView* _Nonnull view);
 
 @interface UIView (HMSugarKit)
 
 -(void)sk_traverseWithBlock:(SKViewBlock _Nullable)block;
--(UIImage*)sk_toImage;
+-(UIImage* _Nonnull)sk_toImage;
 
--(void)sk_addGestureRecognizers:(NSArray*)gestureRecognizers;
--(void)sk_removeGestureRecognizers:(NSArray*)gestureRecognizers;
+-(void)sk_addGestureRecognizers:(NSArray* _Nullable)gestureRecognizers;
+-(void)sk_removeGestureRecognizers:(NSArray* _Nullable)gestureRecognizers;
+
+-(CGFloat)sk_frameHeight;
+-(CGFloat)sk_frameWidth;
+-(CGFloat)sk_frameX;
+-(CGFloat)sk_frameY;
+
+-(CGFloat)sk_boundsHeight;
+-(CGFloat)sk_boundsWidth;
+-(CGFloat)sk_boundsX;
+-(CGFloat)sk_boundsY;
+
+
+
 
 @end

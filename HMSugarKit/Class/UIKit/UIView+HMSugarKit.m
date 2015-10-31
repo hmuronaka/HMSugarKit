@@ -51,6 +51,43 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark -
+#pragma mark size
+
+-(CGFloat)sk_frameHeight {
+    return self.frame.size.height;
+}
+
+-(CGFloat)sk_frameWidth {
+    return self.frame.size.width;
+}
+
+-(CGFloat)sk_frameX {
+    return self.frame.origin.x;
+}
+
+-(CGFloat)sk_frameY {
+    return self.frame.origin.y;
+}
+
+-(CGFloat)sk_boundsHeight {
+    return self.bounds.size.height;
+}
+
+-(CGFloat)sk_boundsWidth {
+    return self.bounds.size.width;
+}
+
+-(CGFloat)sk_boundsX {
+    return self.bounds.origin.x;
+}
+
+-(CGFloat)sk_boundsY {
+    return self.bounds.origin.y;
+}
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark -
 #pragma mark private
 
 -(void)pr_traverseWithView:(UIView* _Nonnull)view block:(SKViewBlock _Nullable)block {

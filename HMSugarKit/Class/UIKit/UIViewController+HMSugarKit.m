@@ -15,4 +15,23 @@
     return [[NSClassFromString(className) alloc] initWithNibName:className bundle:nil];
 }
 
+-(void)sk_showErrorMessage:(NSString*)message {
+    [self sk_showMessageWithTitle:@"Error" message:message];
+}
+
+-(void)sk_showMessageWithTitle:(NSString*)title message:(NSString*)message {
+    
+    UIAlertController* alertController = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction* okAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+    }];
+    [alertController addAction:okAction];
+    
+    [self presentViewController:alertController animated:YES completion:nil];
+    
+}
+
+
+
+
 @end
