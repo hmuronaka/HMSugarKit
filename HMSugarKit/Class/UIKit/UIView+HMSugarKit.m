@@ -85,6 +85,47 @@
     return self.bounds.origin.y;
 }
 
+-(void)sk_setFrameSize:(CGSize)size {
+    CGRect rect = self.frame;
+    rect.size = size;
+    self.frame = rect;
+}
+
+-(CGSize)sk_frameSize {
+    return self.frame.size;
+}
+
+-(void)sk_setFrameOrigin:(CGPoint)origin {
+    CGRect rect = self.frame;
+    rect.origin = origin;
+    self.frame = rect;
+}
+
+-(CGPoint)sk_frameOrigin {
+    return self.frame.origin;
+}
+
+-(void)sk_setBoundsSize:(CGSize)size {
+    CGRect rect = self.bounds;
+    rect.size = size;
+    self.bounds = rect;
+}
+
+-(CGSize)sk_boundsSize {
+    return self.bounds.size;
+}
+
+-(void)sk_setBoundsOrigin:(CGPoint)origin {
+    CGRect rect = self.bounds;
+    rect.origin = origin;
+    self.bounds = rect;
+}
+
+-(CGPoint)sk_boundsOrigin {
+    return self.bounds.origin;
+}
+
+
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark -
