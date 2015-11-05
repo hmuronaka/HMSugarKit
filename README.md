@@ -18,7 +18,7 @@ This project contains many categories and some classes.
 
 |Class|Method|
 |:----|:----|
-|UIView|sk_traverseWithBlock:&br; sk_traverseWithBlock&br; sk_addGradientWithBlock:&br; sk_addShadowWithOpacity:&br; sk_setBackgroundPatternImagewithImageName:&br;|
+|UIView|sk_traverseWithBlock:<br>sk_traverseWithBlock<br>sk_addGradientWithBlock:<br>sk_addShadowWithOpacity:<br>sk_setBackgroundPatternImagewithImageName:|
 |UIImage|sk_resizeWithWidthRate:|
 |UIWebView|sk_loadRequestWithURLString|
 |UITableView|sk_indexPathFromTouchEvent:|
