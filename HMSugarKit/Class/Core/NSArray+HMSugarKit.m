@@ -157,4 +157,15 @@
     return func;
 }
 
+-(NSArray* _Nonnull)sk_shuffle {
+    NSMutableArray* result = [self mutableCopy];
+    
+    for(NSUInteger i = result.count - 1; i > 0; i--) {
+        NSUInteger index = arc4random_uniform((int)i + 1);
+        [result exchangeObjectAtIndex:i withObjectAtIndex:index];
+    }
+    
+    return result;
+}
+
 @end

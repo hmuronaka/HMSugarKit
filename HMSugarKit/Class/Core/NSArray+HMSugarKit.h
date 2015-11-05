@@ -38,8 +38,12 @@ typedef NSArray* _Nonnull (^SK_VECTORIZE)(NSArray* _Nonnull array);
 -(BOOL)sk_all:(SK_PredicateBlock _Nullable)block;
 -(BOOL)sk_none:(SK_PredicateBlock _Nullable)block;
 
+
 -(NSArray* _Nullable)sk_arrayByUniqueWithEqualable:(BOOL (^ _Nullable)(id _Nonnull obj1,  id _Nonnull obj2))equalable;
 
+
 -(SK_VECTORIZE _Nonnull)sk_vectorize:(id _Nonnull (^ _Nonnull)(id _Nonnull obj))block;
-                                          
+
+-(NSArray* _Nonnull)sk_shuffle;
+
 @end

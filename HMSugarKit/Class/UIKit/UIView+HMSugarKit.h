@@ -40,7 +40,13 @@ typedef void (^SKViewBlock)(UIView* _Nonnull view);
 -(void)sk_setBoundsOrigin:(CGPoint)origin;
 -(CGPoint)sk_originOrigin;
 
+-(void)sk_setCenterX:(CGFloat)centerX;
+-(void)sk_setCenterY:(CGFloat)centerY;
 
 
+-(void)sk_addGradientWithBlock:(void (^ _Nonnull)(CAGradientLayer* _Nonnull gradient))block;
+-(void)sk_addShadowWithOpacity:(CGFloat)opacity radius:(CGFloat)radius offset:(CGSize)offset;
+
+-(void)sk_setBackgroundPatternImagewithImageName:(NSString* _Nullable)imageName;
 
 @end

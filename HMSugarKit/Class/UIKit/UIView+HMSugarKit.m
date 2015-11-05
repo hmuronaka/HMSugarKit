@@ -49,6 +49,18 @@
     }];
 }
 
+-(void)sk_setBackgroundPatternImagewithImageName:(NSString*)imageName {
+    
+    if( imageName == nil ) {
+        return;
+    }
+    
+    UIImage* image = [UIImage imageNamed:imageName];
+    self.backgroundColor = [UIColor colorWithPatternImage:image];
+    
+}
+
+
 /////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark -
 #pragma mark size
@@ -125,7 +137,44 @@
     return self.bounds.origin;
 }
 
+-(void)sk_setCenterX:(CGFloat)centerX {
+    CGPoint center = self.center;
+    center.x = centerX;
+    self.center = center;
+}
 
+-(void)sk_setCenterY:(CGFloat)centerY {
+    CGPoint center = self.center;
+    center.y = centerY;
+    self.center = center;
+}
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark -
+#pragma mark layer
+
+-(void)sk_addGradientWithBlock:(void (^ _Nonnull)(CAGradientLayer* _Nonnull gradient))block {
+    
+    CAGradientLayer* gradient = [CAGradientLayer layer];
+    gradient.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
+    
+    block(gradient);
+    
+    [self.layer insertSublayer:gradient atIndex:0];
+}
+
+// http://d.hatena.ne.jp/shu223/20121124/1355146393
+-(void)sk_addShadowWithOpacity:(CGFloat)opacity radius:(CGFloat)radius offset:(CGSize)offset {
+    
+    self.layer.shadowOpacity = opacity;
+    self.layer.shadowRadius = radius;
+    self.layer.shadowOffset = offset;
+    
+    self.layer.shadowPath = [UIBezierPath bezierPathWithRect:self.bounds].CGPath;
+    self.layer.shouldRasterize = YES;
+    self.layer.rasterizationScale = [UIScreen mainScreen].scale;
+}
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark -

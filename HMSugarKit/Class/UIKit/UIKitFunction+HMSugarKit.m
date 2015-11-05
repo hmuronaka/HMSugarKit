@@ -88,6 +88,10 @@ NSString* sk_CGPointString(CGPoint point) {
 #pragma mark -
 #pragma mark CGRect
 
+CGRect sk_CGRectMakeFromOriginSize(CGPoint origin, CGSize size) {
+    return CGRectMake(origin.x, origin.y, size.width, size.height);
+}
+
 CGRect sk_CGRectMakeFromDiagonal(CGPoint point1, CGPoint point2) {
     
     CGFloat x = MIN(point1.x, point2.x);

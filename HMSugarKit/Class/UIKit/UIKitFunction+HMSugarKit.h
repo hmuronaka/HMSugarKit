@@ -37,7 +37,8 @@ NSString* sk_CGPointString(CGPoint point);
 #pragma mark -
 #pragma mark CGRect
 
+CGRect sk_CGRectMakeFromOriginSize(CGPoint origin, CGSize size);
+
 // Diagonal:対角
 CGRect sk_CGRectMakeFromDiagonal(CGPoint point1, CGPoint point2);
 CGRect sk_CGRectMakeFromLines(NSArray* points);
-

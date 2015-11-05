@@ -10,12 +10,16 @@
 		470DDF5222885944D2D82397 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 044E33A542349AF9F26C5956 /* libPods.a */; };
 		D61920D81BCDE4A000EF9896 /* UITextField+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D61920D61BCDE4A000EF9896 /* UITextField+HMSugarKit.h */; };
 		D61920D91BCDE4A000EF9896 /* UITextField+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D61920D71BCDE4A000EF9896 /* UITextField+HMSugarKit.m */; };
+		D622FA5D1BE6F50200C8423A /* UIView+HMSugarKit_Quartz.h in Headers */ = {isa = PBXBuildFile; fileRef = D622FA5B1BE6F50200C8423A /* UIView+HMSugarKit_Quartz.h */; };
+		D622FA5E1BE6F50200C8423A /* UIView+HMSugarKit_Quartz.m in Sources */ = {isa = PBXBuildFile; fileRef = D622FA5C1BE6F50200C8423A /* UIView+HMSugarKit_Quartz.m */; };
 		D624EA751BC7504D00B9B193 /* UIScrollView+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D624EA731BC7504D00B9B193 /* UIScrollView+HMSugarKit.h */; };
 		D624EA761BC7504D00B9B193 /* UIScrollView+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D624EA741BC7504D00B9B193 /* UIScrollView+HMSugarKit.m */; };
 		D629EA341BCA18B3009295F5 /* SKQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D629EA321BCA18B3009295F5 /* SKQueue.h */; };
 		D629EA351BCA18B3009295F5 /* SKQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D629EA331BCA18B3009295F5 /* SKQueue.m */; };
 		D62D7D971BDC67E000A8AC50 /* UIImage+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D62D7D951BDC67E000A8AC50 /* UIImage+HMSugarKit.h */; };
 		D62D7D981BDC67E000A8AC50 /* UIImage+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7D961BDC67E000A8AC50 /* UIImage+HMSugarKit.m */; };
+		D6423E961BEB9FCE00B4EA04 /* BlackOutTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = D6423E941BEB9FCE00B4EA04 /* BlackOutTransition.h */; };
+		D6423E971BEB9FCE00B4EA04 /* BlackOutTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D6423E951BEB9FCE00B4EA04 /* BlackOutTransition.m */; };
 		D646F1281BC37C4D00F2FF2F /* NSObject+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D646F1261BC37C4D00F2FF2F /* NSObject+HMSugarKit.h */; };
 		D646F1291BC37C4D00F2FF2F /* NSObject+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D646F1271BC37C4D00F2FF2F /* NSObject+HMSugarKit.m */; };
 		D6542CF31BCB6B570041397D /* UIView+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D6542CF11BCB6B570041397D /* UIView+HMSugarKit.h */; };
@@ -99,12 +103,16 @@
 		85C14E9673F3BCFAC90E1A05 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D61920D61BCDE4A000EF9896 /* UITextField+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+HMSugarKit.h"; path = "Class/UIKit/UITextField+HMSugarKit.h"; sourceTree = "<group>"; };
 		D61920D71BCDE4A000EF9896 /* UITextField+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+HMSugarKit.m"; path = "Class/UIKit/UITextField+HMSugarKit.m"; sourceTree = "<group>"; };
+		D622FA5B1BE6F50200C8423A /* UIView+HMSugarKit_Quartz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+HMSugarKit_Quartz.h"; path = "Class/Core/UIView+HMSugarKit_Quartz.h"; sourceTree = "<group>"; };
+		D622FA5C1BE6F50200C8423A /* UIView+HMSugarKit_Quartz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+HMSugarKit_Quartz.m"; path = "Class/Core/UIView+HMSugarKit_Quartz.m"; sourceTree = "<group>"; };
 		D624EA731BC7504D00B9B193 /* UIScrollView+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+HMSugarKit.h"; path = "Class/UIKit/UIScrollView+HMSugarKit.h"; sourceTree = "<group>"; };
 		D624EA741BC7504D00B9B193 /* UIScrollView+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+HMSugarKit.m"; path = "Class/UIKit/UIScrollView+HMSugarKit.m"; sourceTree = "<group>"; };
 		D629EA321BCA18B3009295F5 /* SKQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKQueue.h; path = Class/Util/SKQueue.h; sourceTree = "<group>"; };
 		D629EA331BCA18B3009295F5 /* SKQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKQueue.m; path = Class/Util/SKQueue.m; sourceTree = "<group>"; };
 		D62D7D951BDC67E000A8AC50 /* UIImage+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+HMSugarKit.h"; path = "Class/UIKit/UIImage+HMSugarKit.h"; sourceTree = "<group>"; };
 		D62D7D961BDC67E000A8AC50 /* UIImage+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+HMSugarKit.m"; path = "Class/UIKit/UIImage+HMSugarKit.m"; sourceTree = "<group>"; };
+		D6423E941BEB9FCE00B4EA04 /* BlackOutTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlackOutTransition.h; path = Class/UIKit/BlackOutTransition/BlackOutTransition.h; sourceTree = "<group>"; };
+		D6423E951BEB9FCE00B4EA04 /* BlackOutTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlackOutTransition.m; path = Class/UIKit/BlackOutTransition/BlackOutTransition.m; sourceTree = "<group>"; };
 		D646F1261BC37C4D00F2FF2F /* NSObject+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+HMSugarKit.h"; path = "Class/Core/NSObject+HMSugarKit.h"; sourceTree = "<group>"; };
 		D646F1271BC37C4D00F2FF2F /* NSObject+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+HMSugarKit.m"; path = "Class/Core/NSObject+HMSugarKit.m"; sourceTree = "<group>"; };
 		D6542CF11BCB6B570041397D /* UIView+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+HMSugarKit.h"; path = "Class/UIKit/UIView+HMSugarKit.h"; sourceTree = "<group>"; };
@@ -228,6 +236,24 @@
 			name = CoreData;
 			sourceTree = "<group>";
 		};
+		D6423E921BEB9F8600B4EA04 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				D6423E931BEB9F9500B4EA04 /* BlackOutTransition */,
+				D68B5A7D1BD643FF0023DB6B /* SKTransitionAnimation */,
+			);
+			name = Transitions;
+			sourceTree = "<group>";
+		};
+		D6423E931BEB9F9500B4EA04 /* BlackOutTransition */ = {
+			isa = PBXGroup;
+			children = (
+				D6423E941BEB9FCE00B4EA04 /* BlackOutTransition.h */,
+				D6423E951BEB9FCE00B4EA04 /* BlackOutTransition.m */,
+			);
+			name = BlackOutTransition;
+			sourceTree = "<group>";
+		};
 		D68B5A7D1BD643FF0023DB6B /* SKTransitionAnimation */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,7 +266,7 @@
 		D68BFFEF1BC2642B00822BE5 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				D68B5A7D1BD643FF0023DB6B /* SKTransitionAnimation */,
+				D6423E921BEB9F8600B4EA04 /* Transitions */,
 				D696A36F1BCFCD63006B3EE6 /* UIViewController+HMSugarKit.h */,
 				D696A3701BCFCD63006B3EE6 /* UIViewController+HMSugarKit.m */,
 				D6D61EB51BC53B5600B150E6 /* UIKitFunction+HMSugarKit.h */,
@@ -259,6 +285,8 @@
 				D6A3242E1BD5E5E400AAB4DA /* UIWebView+HMSugarKit.m */,
 				D62D7D951BDC67E000A8AC50 /* UIImage+HMSugarKit.h */,
 				D62D7D961BDC67E000A8AC50 /* UIImage+HMSugarKit.m */,
+				D622FA5B1BE6F50200C8423A /* UIView+HMSugarKit_Quartz.h */,
+				D622FA5C1BE6F50200C8423A /* UIView+HMSugarKit_Quartz.m */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -420,6 +448,7 @@
 				D646F1281BC37C4D00F2FF2F /* NSObject+HMSugarKit.h in Headers */,
 				D61920D81BCDE4A000EF9896 /* UITextField+HMSugarKit.h in Headers */,
 				D624EA751BC7504D00B9B193 /* UIScrollView+HMSugarKit.h in Headers */,
+				D6423E961BEB9FCE00B4EA04 /* BlackOutTransition.h in Headers */,
 				D6CC11BE1BCF9B13004769F4 /* SKLog.h in Headers */,
 				D696A36D1BCFCD38006B3EE6 /* GetDistanceHubeny.h in Headers */,
 				D6A796CF1BDE2ECC00C3356F /* SKTimeInterval.h in Headers */,
@@ -428,6 +457,7 @@
 				D696A3711BCFCD63006B3EE6 /* UIViewController+HMSugarKit.h in Headers */,
 				D69008B71BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.h in Headers */,
 				D696A36B1BCFCD38006B3EE6 /* CLLocation+HMSugarKit.h in Headers */,
+				D622FA5D1BE6F50200C8423A /* UIView+HMSugarKit_Quartz.h in Headers */,
 				D6D61EB91BC53B5600B150E6 /* UIKitFunction+HMSugarKit.h in Headers */,
 				D6D61EAF1BC53B1C00B150E6 /* NSSet+HMSugarKit.h in Headers */,
 				D6D61EBB1BC53B5600B150E6 /* UITableView+HMSugarKit.h in Headers */,
@@ -577,12 +607,14 @@
 				D62D7D981BDC67E000A8AC50 /* UIImage+HMSugarKit.m in Sources */,
 				D6A324301BD5E5E400AAB4DA /* UIWebView+HMSugarKit.m in Sources */,
 				D646F1291BC37C4D00F2FF2F /* NSObject+HMSugarKit.m in Sources */,
+				D622FA5E1BE6F50200C8423A /* UIView+HMSugarKit_Quartz.m in Sources */,
 				D6A796C01BDE2E0400C3356F /* NSString+HMSugarKit.m in Sources */,
 				D68B5A811BD644520023DB6B /* SKSlideViewControllerTransitionAnimation.m in Sources */,
 				D6D61EB01BC53B1C00B150E6 /* NSSet+HMSugarKit.m in Sources */,
 				D696A3721BCFCD63006B3EE6 /* UIViewController+HMSugarKit.m in Sources */,
 				D61920D91BCDE4A000EF9896 /* UITextField+HMSugarKit.m in Sources */,
 				D6A796D01BDE2ECC00C3356F /* SKTimeInterval.m in Sources */,
+				D6423E971BEB9FCE00B4EA04 /* BlackOutTransition.m in Sources */,
 				D6D61EBC1BC53B5600B150E6 /* UITableView+HMSugarKit.m in Sources */,
 				D6D61EBA1BC53B5600B150E6 /* UIKitFunction+HMSugarKit.m in Sources */,
 				D6EB502C1BD28EB90091E20E /* HMSugarKitFilePath.m in Sources */,
