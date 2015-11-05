@@ -10,7 +10,7 @@
 
 @implementation NSURL (HMSugarKit)
 
-+(instancetype)URLWithTelNumber:(NSString*)telephoneNumber {
++(instancetype)sk_URLWithTelNumber:(NSString*)telephoneNumber {
     
     if( ![telephoneNumber hasPrefix:@"tel:"] ) {
         telephoneNumber = [NSString stringWithFormat:@"tel:%@",telephoneNumber];

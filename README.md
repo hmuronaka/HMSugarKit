@@ -1,6 +1,36 @@
 HMSugarKit
-
 =======
+
+This project contains many categories and some classes.
+
+# Core
+
+|Class|Method|
+|:====|:=====|
+|NSURL|sk_URLWithTelNumber:|
+|NSDate|Extends [NSDate-Extensions](https://github.com/erica/NSDate-Extensions/blob/master/NSDate%2BUtilities.h)
+|NSSet|sk_addObject:|
+|NSOrderedSet|sk_orderedSetExchangeFromIndex:toIndex:|
+|NSNumber|increment/decrement/times/compare|
+|SKRange||
+
+# UIKit
+
+|Class|Method|
+|:====|:=====|
+|UIView|sk_traverseWithBlock:&br; sk_traverseWithBlock&br; sk_addGradientWithBlock:&br; sk_addShadowWithOpacity:&br; sk_setBackgroundPatternImagewithImageName:&br;|
+|UIImage|sk_resizeWithWidthRate:|
+|UIWebView|sk_loadRequestWithURLString|
+|UITableView|sk_indexPathFromTouchEvent:|
+|UIKitFunction|Methods for CGSize CGPoint CGRect|
+|BlackOutTransition|UIViewController animation transition|
+
+
+# MediaPlayer
+
+|Class|Method|
+|:====|:=====|
+|MPMediaPickerController|Blocks|
 
 # SKRange
 

@@ -10,6 +10,6 @@
 
 @interface NSURL (HMSugarKit)
 
-+(instancetype)URLWithTelNumber:(NSString*)telephoneNumber;
++(instancetype)sk_URLWithTelNumber:(NSString*)telephoneNumber;
 
 @end
