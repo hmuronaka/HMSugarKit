@@ -405,6 +405,15 @@ static const unsigned componentFlags = (NSCalendarUnitYear | NSCalendarUnitMonth
     return [[NSDate sk_currentCalendar] dateFromComponents:components];
 }
 
+- (NSDate * _Nonnull) sk_dateAtStartOfMonth {
+    NSDateComponents *components = [[NSDate sk_currentCalendar] components:componentFlags fromDate:self];
+    components.day = 1;
+    components.hour = 0;
+    components.minute = 0;
+    components.second = 0;
+    return [[NSDate sk_currentCalendar] dateFromComponents:components];
+}
+
 #pragma mark - Retrieving Intervals
 
 - (NSInteger) sk_minutesAfterDate: (NSDate *) aDate
@@ -498,6 +507,7 @@ static const unsigned componentFlags = (NSCalendarUnitYear | NSCalendarUnitMonth
     return components.week;
 }
 
+// 1:sunday, 7:saturday
 - (NSInteger) sk_weekday
 {
     NSDateComponents *components = [[NSDate sk_currentCalendar] components:componentFlags fromDate:self];

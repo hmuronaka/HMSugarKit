@@ -16,9 +16,10 @@
 #pragma mark layer
 
 -(void)sk_roundCornerWithRadius:(CGFloat)radious {
-    if( !self.clipsToBounds ) {
-        self.clipsToBounds = YES;
-    }
+    // これを有効にすると影がつかない。
+    //    if( !self.clipsToBounds ) {
+    //        self.clipsToBounds = YES;
+    //    }
     self.layer.cornerRadius = radious;
 }
 

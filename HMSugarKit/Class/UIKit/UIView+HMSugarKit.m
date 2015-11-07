@@ -65,8 +65,20 @@
 #pragma mark -
 #pragma mark size
 
+-(void)sk_setFrameHeight:(CGFloat)height {
+    CGRect frame = self.frame;
+    frame.size.height = height;
+    self.frame = frame;
+}
+
 -(CGFloat)sk_frameHeight {
     return self.frame.size.height;
+}
+
+-(void)sk_setFrameWidth:(CGFloat)width {
+    CGRect frame = self.frame;
+    frame.size.width = width;
+    self.frame = frame;
 }
 
 -(CGFloat)sk_frameWidth {
@@ -159,6 +171,10 @@
     CAGradientLayer* gradient = [CAGradientLayer layer];
     gradient.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
     
+    // 影にも角丸の設定をしないと、影が角丸にならなかった。
+    // 影を付けるの前にcornerRadiusを設定している必要がある。
+    gradient.cornerRadius = self.layer.cornerRadius;
+    
     block(gradient);
     
     [self.layer insertSublayer:gradient atIndex:0];
@@ -166,6 +182,9 @@
 
 // http://d.hatena.ne.jp/shu223/20121124/1355146393
 -(void)sk_addShadowWithOpacity:(CGFloat)opacity radius:(CGFloat)radius offset:(CGSize)offset {
+    
+    // 必要?
+    self.layer.masksToBounds = NO;
     
     self.layer.shadowOpacity = opacity;
     self.layer.shadowRadius = radius;

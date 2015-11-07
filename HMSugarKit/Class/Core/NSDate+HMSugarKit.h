@@ -99,6 +99,8 @@ extern const NSUInteger SK_DATE_YEAR;
 - (NSDate * _Nonnull) sk_dateAtStartOfDay;
 - (NSDate * _Nonnull) sk_dateAtEndOfDay;
 
+- (NSDate * _Nonnull) sk_dateAtStartOfMonth;
+
 // Retrieving intervals
 - (NSInteger) sk_minutesAfterDate: (NSDate * _Nullable) aDate;
 - (NSInteger) sk_minutesBeforeDate: (NSDate * _Nullable) aDate;

@@ -18,8 +18,9 @@ typedef void (^SKViewBlock)(UIView* _Nonnull view);
 -(void)sk_addGestureRecognizers:(NSArray* _Nullable)gestureRecognizers;
 -(void)sk_removeGestureRecognizers:(NSArray* _Nullable)gestureRecognizers;
 
+-(void)sk_setFrameHeight:(CGFloat)height;
 -(CGFloat)sk_frameHeight;
--(CGFloat)sk_frameWidth;
+-(void)sk_setFrameWidth:(CGFloat)width;
 -(CGFloat)sk_frameX;
 -(CGFloat)sk_frameY;
 
