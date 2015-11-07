@@ -6,7 +6,7 @@ This project contains many categories and some classes.
 # Core
 
 |Class|Method|
-|:====|:=====|
+|:----|:----|
 |NSURL|sk_URLWithTelNumber:|
 |NSDate|Extends [NSDate-Extensions](https://github.com/erica/NSDate-Extensions/blob/master/NSDate%2BUtilities.h)
 |NSSet|sk_addObject:|
@@ -17,8 +17,8 @@ This project contains many categories and some classes.
 # UIKit
 
 |Class|Method|
-|:====|:=====|
-|UIView|sk_traverseWithBlock:&br; sk_traverseWithBlock&br; sk_addGradientWithBlock:&br; sk_addShadowWithOpacity:&br; sk_setBackgroundPatternImagewithImageName:&br;|
+|:----|:----|
+|UIView|sk_traverseWithBlock:<br>sk_traverseWithBlock<br>sk_addGradientWithBlock:<br>sk_addShadowWithOpacity:<br>sk_setBackgroundPatternImagewithImageName:|
 |UIImage|sk_resizeWithWidthRate:|
 |UIWebView|sk_loadRequestWithURLString|
 |UITableView|sk_indexPathFromTouchEvent:|
@@ -29,7 +29,7 @@ This project contains many categories and some classes.
 # MediaPlayer
 
 |Class|Method|
-|:====|:=====|
+|:----|:----|
 |MPMediaPickerController|Blocks|
 
 # SKRange
