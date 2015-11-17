@@ -11,5 +11,8 @@
 @interface UIDevice (HMSugarKit)
 
 -(BOOL)sk_isIPad;
+-(NSInteger)sk_majorVersion;
+-(NSComparisonResult)sk_compareOSMajorVersion:(NSInteger)majorVersion;
+-(BOOL)sk_greaterThanOrEqualToIOS7;
 
 @end

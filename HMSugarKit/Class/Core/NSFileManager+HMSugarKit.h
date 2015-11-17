@@ -11,5 +11,6 @@
 @interface NSFileManager (HMSugarKit)
 
 -(void)sk_deleteFilesEndsWith:(NSString*)endsWith path:(NSString*)path;
+-(NSURL*)sk_documentDirectoryURL;
 
 @end

@@ -35,6 +35,8 @@ typedef void (^SKViewBlock)(UIView* _Nonnull view);
 -(void)sk_setFrameOrigin:(CGPoint)origin;
 -(CGPoint)sk_frameOrigin;
 
+-(void)sk_moveFrameOrigin:(CGPoint)ammount;
+
 -(void)sk_setBoundsSize:(CGSize)size;
 -(CGSize)sk_originSize;
 

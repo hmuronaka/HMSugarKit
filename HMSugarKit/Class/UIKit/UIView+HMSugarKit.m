@@ -129,6 +129,13 @@
     return self.frame.origin;
 }
 
+-(void)sk_moveFrameOrigin:(CGPoint)ammount {
+    CGRect rect = self.frame;
+    rect.origin.x += ammount.x;
+    rect.origin.y += ammount.y;
+    self.frame = rect;
+}
+
 -(void)sk_setBoundsSize:(CGSize)size {
     CGRect rect = self.bounds;
     rect.size = size;

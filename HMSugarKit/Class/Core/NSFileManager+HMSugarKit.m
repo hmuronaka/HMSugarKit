@@ -22,4 +22,8 @@
     }];
 }
 
+-(NSURL*)sk_documentDirectoryURL {
+    return [[self URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
+}
+
 @end
