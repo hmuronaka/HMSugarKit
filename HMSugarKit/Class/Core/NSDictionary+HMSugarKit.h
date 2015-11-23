@@ -19,6 +19,7 @@ typedef BOOL (^SK_Predicate2Block)(id _Nonnull key, id _Nonnull value);
 -(NSDictionary* _Nonnull )sk_removeFromKeys:(NSArray* _Nullable )keys;
 -(NSDictionary* _Nonnull )sk_removeIf:(SK_Predicate2Block _Nullable )block;
 -(BOOL)sk_isEmpty;
+-(BOOL)sk_hasEntity;
 -(id _Nullable )sk_fetchWithKey:(id _Nonnull)key defaultValue:(id _Nullable)defaultValue;
 -(id _Nullable )sk_fetchWithKey:(id _Nonnull)key defaultBlock:(SK_DefaultBlock _Nullable)block;
 -(NSDictionary* _Nonnull )invert;

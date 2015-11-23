@@ -11,6 +11,7 @@
 @interface UIViewController (HMSugarKit)
 
 +(instancetype)sk_createFromNib;
++(instancetype)sk_topViewController;
 
 -(void)sk_showMessageWithTitle:(NSString*)title message:(NSString*)message;
 -(void)sk_showErrorMessage:(NSString*)message;

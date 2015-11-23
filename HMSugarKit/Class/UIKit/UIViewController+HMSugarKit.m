@@ -15,6 +15,10 @@
     return [[NSClassFromString(className) alloc] initWithNibName:className bundle:nil];
 }
 
++(instancetype)sk_topViewController {
+    return [UIApplication sharedApplication].keyWindow.rootViewController;
+}
+
 -(void)sk_showErrorMessage:(NSString*)message {
     [self sk_showMessageWithTitle:@"Error" message:message];
 }

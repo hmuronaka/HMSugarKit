@@ -90,6 +90,10 @@
     return self.count == 0;
 }
 
+-(BOOL)sk_hasEntity {
+    return ![self sk_isEmpty];
+}
+
 #pragma mark fetch
 
 -(id _Nullable )sk_fetchWithKey:(id _Nonnull)key defaultValue:(id _Nullable)defaultValue {
