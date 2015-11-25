@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		470DDF5222885944D2D82397 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 044E33A542349AF9F26C5956 /* libPods.a */; };
+		D60E10321C044AF600B1A3E0 /* UINavigationBar+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D60E10301C044AF600B1A3E0 /* UINavigationBar+HMSugarKit.h */; };
+		D60E10331C044AF600B1A3E0 /* UINavigationBar+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D60E10311C044AF600B1A3E0 /* UINavigationBar+HMSugarKit.m */; };
+		D60E10361C044B6400B1A3E0 /* UINavigationController+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D60E10341C044B6400B1A3E0 /* UINavigationController+HMSugarKit.h */; };
+		D60E10371C044B6400B1A3E0 /* UINavigationController+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D60E10351C044B6400B1A3E0 /* UINavigationController+HMSugarKit.m */; };
 		D61920D81BCDE4A000EF9896 /* UITextField+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D61920D61BCDE4A000EF9896 /* UITextField+HMSugarKit.h */; };
 		D61920D91BCDE4A000EF9896 /* UITextField+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D61920D71BCDE4A000EF9896 /* UITextField+HMSugarKit.m */; };
 		D622FA5D1BE6F50200C8423A /* UIView+HMSugarKit_Quartz.h in Headers */ = {isa = PBXBuildFile; fileRef = D622FA5B1BE6F50200C8423A /* UIView+HMSugarKit_Quartz.h */; };
@@ -20,6 +24,10 @@
 		D62D7D981BDC67E000A8AC50 /* UIImage+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D7D961BDC67E000A8AC50 /* UIImage+HMSugarKit.m */; };
 		D6423E961BEB9FCE00B4EA04 /* BlackOutTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = D6423E941BEB9FCE00B4EA04 /* BlackOutTransition.h */; };
 		D6423E971BEB9FCE00B4EA04 /* BlackOutTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D6423E951BEB9FCE00B4EA04 /* BlackOutTransition.m */; };
+		D643B1E31C051E750050BE4C /* UIButton+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D643B1E11C051E750050BE4C /* UIButton+HMSugarKit.h */; };
+		D643B1E41C051E750050BE4C /* UIButton+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D643B1E21C051E750050BE4C /* UIButton+HMSugarKit.m */; };
+		D643B1EA1C054CB30050BE4C /* UIColor+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D643B1E81C054CB30050BE4C /* UIColor+HMSugarKit.h */; };
+		D643B1EB1C054CB30050BE4C /* UIColor+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D643B1E91C054CB30050BE4C /* UIColor+HMSugarKit.m */; };
 		D646F1281BC37C4D00F2FF2F /* NSObject+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D646F1261BC37C4D00F2FF2F /* NSObject+HMSugarKit.h */; };
 		D646F1291BC37C4D00F2FF2F /* NSObject+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D646F1271BC37C4D00F2FF2F /* NSObject+HMSugarKit.m */; };
 		D6542CF31BCB6B570041397D /* UIView+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D6542CF11BCB6B570041397D /* UIView+HMSugarKit.h */; };
@@ -109,6 +117,10 @@
 		044E33A542349AF9F26C5956 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6836A28903DA31121BD78DE5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		85C14E9673F3BCFAC90E1A05 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D60E10301C044AF600B1A3E0 /* UINavigationBar+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+HMSugarKit.h"; path = "Class/UIKit/UINavigationBar+HMSugarKit.h"; sourceTree = "<group>"; };
+		D60E10311C044AF600B1A3E0 /* UINavigationBar+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+HMSugarKit.m"; path = "Class/UIKit/UINavigationBar+HMSugarKit.m"; sourceTree = "<group>"; };
+		D60E10341C044B6400B1A3E0 /* UINavigationController+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+HMSugarKit.h"; path = "Class/UIKit/UINavigationController+HMSugarKit.h"; sourceTree = "<group>"; };
+		D60E10351C044B6400B1A3E0 /* UINavigationController+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+HMSugarKit.m"; path = "Class/UIKit/UINavigationController+HMSugarKit.m"; sourceTree = "<group>"; };
 		D61920D61BCDE4A000EF9896 /* UITextField+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+HMSugarKit.h"; path = "Class/UIKit/UITextField+HMSugarKit.h"; sourceTree = "<group>"; };
 		D61920D71BCDE4A000EF9896 /* UITextField+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+HMSugarKit.m"; path = "Class/UIKit/UITextField+HMSugarKit.m"; sourceTree = "<group>"; };
 		D622FA5B1BE6F50200C8423A /* UIView+HMSugarKit_Quartz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+HMSugarKit_Quartz.h"; path = "Class/Core/UIView+HMSugarKit_Quartz.h"; sourceTree = "<group>"; };
@@ -121,6 +133,10 @@
 		D62D7D961BDC67E000A8AC50 /* UIImage+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+HMSugarKit.m"; path = "Class/UIKit/UIImage+HMSugarKit.m"; sourceTree = "<group>"; };
 		D6423E941BEB9FCE00B4EA04 /* BlackOutTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlackOutTransition.h; path = Class/UIKit/BlackOutTransition/BlackOutTransition.h; sourceTree = "<group>"; };
 		D6423E951BEB9FCE00B4EA04 /* BlackOutTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlackOutTransition.m; path = Class/UIKit/BlackOutTransition/BlackOutTransition.m; sourceTree = "<group>"; };
+		D643B1E11C051E750050BE4C /* UIButton+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+HMSugarKit.h"; path = "Class/UIKit/UIButton+HMSugarKit.h"; sourceTree = "<group>"; };
+		D643B1E21C051E750050BE4C /* UIButton+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+HMSugarKit.m"; path = "Class/UIKit/UIButton+HMSugarKit.m"; sourceTree = "<group>"; };
+		D643B1E81C054CB30050BE4C /* UIColor+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+HMSugarKit.h"; path = "Class/UIKit/UIColor+HMSugarKit.h"; sourceTree = "<group>"; };
+		D643B1E91C054CB30050BE4C /* UIColor+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HMSugarKit.m"; path = "Class/UIKit/UIColor+HMSugarKit.m"; sourceTree = "<group>"; };
 		D646F1261BC37C4D00F2FF2F /* NSObject+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+HMSugarKit.h"; path = "Class/Core/NSObject+HMSugarKit.h"; sourceTree = "<group>"; };
 		D646F1271BC37C4D00F2FF2F /* NSObject+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+HMSugarKit.m"; path = "Class/Core/NSObject+HMSugarKit.m"; sourceTree = "<group>"; };
 		D6542CF11BCB6B570041397D /* UIView+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+HMSugarKit.h"; path = "Class/UIKit/UIView+HMSugarKit.h"; sourceTree = "<group>"; };
@@ -309,6 +325,14 @@
 				D622FA5C1BE6F50200C8423A /* UIView+HMSugarKit_Quartz.m */,
 				D6D625751BFE0E0C006FBA19 /* UIAlertController+HMSugarKit.h */,
 				D6D625761BFE0E0C006FBA19 /* UIAlertController+HMSugarKit.m */,
+				D60E10301C044AF600B1A3E0 /* UINavigationBar+HMSugarKit.h */,
+				D60E10311C044AF600B1A3E0 /* UINavigationBar+HMSugarKit.m */,
+				D60E10341C044B6400B1A3E0 /* UINavigationController+HMSugarKit.h */,
+				D60E10351C044B6400B1A3E0 /* UINavigationController+HMSugarKit.m */,
+				D643B1E11C051E750050BE4C /* UIButton+HMSugarKit.h */,
+				D643B1E21C051E750050BE4C /* UIButton+HMSugarKit.m */,
+				D643B1E81C054CB30050BE4C /* UIColor+HMSugarKit.h */,
+				D643B1E91C054CB30050BE4C /* UIColor+HMSugarKit.m */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -463,7 +487,9 @@
 				D6C592C11BC6220500EFEC9E /* UISlider+HMSugarKit.h in Headers */,
 				D6A796CB1BDE2EB700C3356F /* NSBundle+HMSugarKit.h in Headers */,
 				D629EA341BCA18B3009295F5 /* SKQueue.h in Headers */,
+				D643B1EA1C054CB30050BE4C /* UIColor+HMSugarKit.h in Headers */,
 				D62D7D971BDC67E000A8AC50 /* UIImage+HMSugarKit.h in Headers */,
+				D60E10361C044B6400B1A3E0 /* UINavigationController+HMSugarKit.h in Headers */,
 				D69008991BBA7AB2005FF1B2 /* HMSugarKit.h in Headers */,
 				D6CBE82A1BD66F6E00466C0E /* NSOrderedSet+HMSugarKit.h in Headers */,
 				D69008B21BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.h in Headers */,
@@ -477,6 +503,7 @@
 				D6CC11BE1BCF9B13004769F4 /* SKLog.h in Headers */,
 				D696A36D1BCFCD38006B3EE6 /* GetDistanceHubeny.h in Headers */,
 				D6A796CF1BDE2ECC00C3356F /* SKTimeInterval.h in Headers */,
+				D643B1E31C051E750050BE4C /* UIButton+HMSugarKit.h in Headers */,
 				D6CFC0C41BF401E8005B4443 /* NSFileManager+HMSugarKit.h in Headers */,
 				D6A796C71BDE2E9D00C3356F /* NSFetchedResultsController+HMSugarKit.h in Headers */,
 				D6A796C31BDE2E7C00C3356F /* MPMediaPickerController+HMSugarKit.h in Headers */,
@@ -484,6 +511,7 @@
 				D6CFC0C01BF401D9005B4443 /* UINib+HMSugarKit.h in Headers */,
 				D69008B71BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.h in Headers */,
 				D696A36B1BCFCD38006B3EE6 /* CLLocation+HMSugarKit.h in Headers */,
+				D60E10321C044AF600B1A3E0 /* UINavigationBar+HMSugarKit.h in Headers */,
 				D622FA5D1BE6F50200C8423A /* UIView+HMSugarKit_Quartz.h in Headers */,
 				D6D61EB91BC53B5600B150E6 /* UIKitFunction+HMSugarKit.h in Headers */,
 				D6D61EAF1BC53B1C00B150E6 /* NSSet+HMSugarKit.h in Headers */,
@@ -641,9 +669,11 @@
 				D68B5A811BD644520023DB6B /* SKSlideViewControllerTransitionAnimation.m in Sources */,
 				D6D61EB01BC53B1C00B150E6 /* NSSet+HMSugarKit.m in Sources */,
 				D696A3721BCFCD63006B3EE6 /* UIViewController+HMSugarKit.m in Sources */,
+				D60E10371C044B6400B1A3E0 /* UINavigationController+HMSugarKit.m in Sources */,
 				D61920D91BCDE4A000EF9896 /* UITextField+HMSugarKit.m in Sources */,
 				D6CFC0BD1BF401D1005B4443 /* UIDevice+HMSugarKit.m in Sources */,
 				D6A796D01BDE2ECC00C3356F /* SKTimeInterval.m in Sources */,
+				D643B1E41C051E750050BE4C /* UIButton+HMSugarKit.m in Sources */,
 				D6423E971BEB9FCE00B4EA04 /* BlackOutTransition.m in Sources */,
 				D6D61EBC1BC53B5600B150E6 /* UITableView+HMSugarKit.m in Sources */,
 				D6D61EBA1BC53B5600B150E6 /* UIKitFunction+HMSugarKit.m in Sources */,
@@ -655,6 +685,7 @@
 				D6A796CC1BDE2EB700C3356F /* NSBundle+HMSugarKit.m in Sources */,
 				D6A796C41BDE2E7C00C3356F /* MPMediaPickerController+HMSugarKit.m in Sources */,
 				D6C592C71BC622A300EFEC9E /* SKStep.m in Sources */,
+				D60E10331C044AF600B1A3E0 /* UINavigationBar+HMSugarKit.m in Sources */,
 				D6E7D03E1BBBB63B00F80BFA /* SKRange.m in Sources */,
 				D696A3621BCE82B0006B3EE6 /* NSURL+HMSugarKit.m in Sources */,
 				D629EA351BCA18B3009295F5 /* SKQueue.m in Sources */,
@@ -662,6 +693,7 @@
 				D6A4D6871BBACEA3007AC112 /* NSArray+HMSugarKit.m in Sources */,
 				D6CFC0C51BF401E8005B4443 /* NSFileManager+HMSugarKit.m in Sources */,
 				D6CFC0C11BF401D9005B4443 /* UINib+HMSugarKit.m in Sources */,
+				D643B1EB1C054CB30050BE4C /* UIColor+HMSugarKit.m in Sources */,
 				D6D61EB41BC53B2700B150E6 /* NSDate+HMSugarKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

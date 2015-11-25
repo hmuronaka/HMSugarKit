@@ -10,6 +10,7 @@
 
 @interface UIImage (HMSugarKit)
 
+-(UIImage*)sk_resizeScreenSize:(CGSize)screenSize;
 -(UIImage*)sk_resizeWithWidthRate:(CGFloat)widthRate heightRate:(CGFloat)heightRate;
 
 @end
