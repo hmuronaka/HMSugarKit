@@ -18,6 +18,8 @@
 
 -(NSString*)toString;
 +(NSString*)stringFromTimeInterval:(NSTimeInterval)timeInterval;
++(NSString*)stringFromTimeInterval:(NSTimeInterval)timeInterval format:(NSString*)format;
++(NSString*)stringFromTimeInterval:(NSTimeInterval)timeInterval format:(NSString*)format block:(void (^)(NSDateFormatter* formatter))block;
 +(NSTimeInterval)timeIntervalFromMinute:(NSInteger)minute second:(NSInteger)second millisecond:(NSInteger)millisecond;
 
 @end

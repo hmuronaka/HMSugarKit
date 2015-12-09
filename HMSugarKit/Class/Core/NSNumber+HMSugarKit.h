@@ -50,6 +50,8 @@ BOOL sk_isEqualDouble(double v1, double v2);
 -(NSNumber*)sk_minusLong:(long)val;
 -(NSNumber*)sk_minusLongLong:(long long)val;
 
+-(BOOL)sk_isDoubleNaN;
+
 
 -(void)sk_times:(VoidBlock)block;
 -(void)sk_timesWithIndex:(IndexBlock)block;

@@ -144,6 +144,14 @@ BOOL sk_isEqualDouble(double v1, double v2) {
     }
 }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark -
+#pragma mark nan
+
+-(BOOL)sk_isDoubleNaN {
+    return [self compare:[NSNumber numberWithDouble:NAN]] == 0;
+}
+
 #pragma mark convert
 
 -(NSTimeInterval)sk_toTimeInterval {

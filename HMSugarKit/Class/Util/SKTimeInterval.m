@@ -39,9 +39,22 @@
 }
 
 +(NSString*)stringFromTimeInterval:(NSTimeInterval)timeInterval {
+    return [self stringFromTimeInterval:timeInterval format:@"mm:ss.S"];
+}
+
++(NSString*)stringFromTimeInterval:(NSTimeInterval)timeInterval format:(NSString*)format {
+    return [self stringFromTimeInterval:timeInterval format:format block:nil];
+}
+
++(NSString*)stringFromTimeInterval:(NSTimeInterval)timeInterval format:(NSString*)format block:(void (^)(NSDateFormatter* formatter))block {
+    
     NSDate* date = [NSDate dateWithTimeIntervalSince1970: timeInterval];
+    
     NSDateFormatter* formatter = [[NSDateFormatter alloc] init];
-    [formatter setDateFormat:@"mm:ss.S"];
+    [formatter setDateFormat:format];
+    if( block ) {
+        block(formatter);
+    }
     NSString* str = [formatter stringFromDate:date];
     return str;
 }
