@@ -11,5 +11,6 @@
 @interface NSString (HMSugarKit)
 
 -(NSString*)sk_strip;
+-(NSString*)sk_escapeToUtf8;
 
 @end
