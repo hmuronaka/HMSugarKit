@@ -70,6 +70,8 @@
 		D6A796CC1BDE2EB700C3356F /* NSBundle+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A796CA1BDE2EB700C3356F /* NSBundle+HMSugarKit.m */; };
 		D6A796CF1BDE2ECC00C3356F /* SKTimeInterval.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A796CD1BDE2ECC00C3356F /* SKTimeInterval.h */; };
 		D6A796D01BDE2ECC00C3356F /* SKTimeInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A796CE1BDE2ECC00C3356F /* SKTimeInterval.m */; };
+		D6AA331D1C740D5600D4439E /* UIApplication+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D6AA331B1C740D5600D4439E /* UIApplication+HMSugarKit.h */; };
+		D6AA331E1C740D5600D4439E /* UIApplication+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AA331C1C740D5600D4439E /* UIApplication+HMSugarKit.m */; };
 		D6B9F67A1BBC9F2F0070EC6A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D6B9F6791BBC9F2F0070EC6A /* LICENSE */; };
 		D6C592C11BC6220500EFEC9E /* UISlider+HMSugarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D6C592BF1BC6220500EFEC9E /* UISlider+HMSugarKit.h */; };
 		D6C592C21BC6220500EFEC9E /* UISlider+HMSugarKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C592C01BC6220500EFEC9E /* UISlider+HMSugarKit.m */; };
@@ -179,6 +181,8 @@
 		D6A796CA1BDE2EB700C3356F /* NSBundle+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+HMSugarKit.m"; path = "Class/Core/NSBundle+HMSugarKit.m"; sourceTree = "<group>"; };
 		D6A796CD1BDE2ECC00C3356F /* SKTimeInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKTimeInterval.h; path = Class/Util/SKTimeInterval.h; sourceTree = "<group>"; };
 		D6A796CE1BDE2ECC00C3356F /* SKTimeInterval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKTimeInterval.m; path = Class/Util/SKTimeInterval.m; sourceTree = "<group>"; };
+		D6AA331B1C740D5600D4439E /* UIApplication+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+HMSugarKit.h"; path = "Class/Core/UIApplication+HMSugarKit.h"; sourceTree = "<group>"; };
+		D6AA331C1C740D5600D4439E /* UIApplication+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+HMSugarKit.m"; path = "Class/Core/UIApplication+HMSugarKit.m"; sourceTree = "<group>"; };
 		D6B9F6791BBC9F2F0070EC6A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D6C592BF1BC6220500EFEC9E /* UISlider+HMSugarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UISlider+HMSugarKit.h"; path = "Class/UIKit/UISlider+HMSugarKit.h"; sourceTree = "<group>"; };
 		D6C592C01BC6220500EFEC9E /* UISlider+HMSugarKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UISlider+HMSugarKit.m"; path = "Class/UIKit/UISlider+HMSugarKit.m"; sourceTree = "<group>"; };
@@ -415,6 +419,8 @@
 				D6CBE8291BD66F6E00466C0E /* NSOrderedSet+HMSugarKit.m */,
 				D6A796BD1BDE2E0400C3356F /* NSString+HMSugarKit.h */,
 				D6A796BE1BDE2E0400C3356F /* NSString+HMSugarKit.m */,
+				D6AA331B1C740D5600D4439E /* UIApplication+HMSugarKit.h */,
+				D6AA331C1C740D5600D4439E /* UIApplication+HMSugarKit.m */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -511,6 +517,7 @@
 				D6CFC0C01BF401D9005B4443 /* UINib+HMSugarKit.h in Headers */,
 				D69008B71BBA90A9005FF1B2 /* NSDictionary+HMSugarKit.h in Headers */,
 				D696A36B1BCFCD38006B3EE6 /* CLLocation+HMSugarKit.h in Headers */,
+				D6AA331D1C740D5600D4439E /* UIApplication+HMSugarKit.h in Headers */,
 				D60E10321C044AF600B1A3E0 /* UINavigationBar+HMSugarKit.h in Headers */,
 				D622FA5D1BE6F50200C8423A /* UIView+HMSugarKit_Quartz.h in Headers */,
 				D6D61EB91BC53B5600B150E6 /* UIKitFunction+HMSugarKit.h in Headers */,
@@ -657,6 +664,7 @@
 			files = (
 				D696A36C1BCFCD38006B3EE6 /* CLLocation+HMSugarKit.m in Sources */,
 				D69008B31BBA7AEB005FF1B2 /* NSNumber+HMSugarKit.m in Sources */,
+				D6AA331E1C740D5600D4439E /* UIApplication+HMSugarKit.m in Sources */,
 				D696A3761BCFCD8A006B3EE6 /* HMSugarKitFunction.m in Sources */,
 				D6C592C21BC6220500EFEC9E /* UISlider+HMSugarKit.m in Sources */,
 				D6CBE82B1BD66F6E00466C0E /* NSOrderedSet+HMSugarKit.m in Sources */,
