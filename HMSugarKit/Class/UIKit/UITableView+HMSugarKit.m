@@ -17,4 +17,14 @@
     return indexPath;
 }
 
+-(void)sk_reloadDataWithCompetion:(void (^)(UITableView* tableView))block {
+    
+    [self reloadData];
+    
+    if( block ) {
+        block(self);
+    }
+    
+}
+
 @end

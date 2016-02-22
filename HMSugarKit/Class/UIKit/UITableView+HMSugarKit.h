@@ -11,5 +11,6 @@
 @interface UITableView (HMSugarKit)
 
 -(NSIndexPath*)sk_indexPathFromTouchEvent:(UIEvent*)event;
+-(void)sk_reloadDataWithCompetion:(void (^)(UITableView* tableView))block;
 
 @end
